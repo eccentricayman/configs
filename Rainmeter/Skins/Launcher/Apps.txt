@@ -1,0 +1,43 @@
+//********************************************************//
+Sorry Cheesewoo that I am 5 or so mounth late with this,
+not been on DevientArt for a while.
+Regards,
+RainbowHooves
+//********************************************************//
+!!!! IMPORTANT !!!! You also need "Launcher.ini" !!!!
+//********************************************************//
+Place this (Apps.txt) in a folder
+(..//Rainmeter/Skins/Launcher)
+Along with Launcher.ini
+//********************************************************//
+ 
+[Variables]
+App1="Recycle Bin"
+App1Path="::{645FF040-5081-101B-9F08-00AA002F954E}"
+
+App2="Coding"
+App2Path="C:\Users\ayman_000\Desktop\Coding and Testing"
+ 
+App3="Books"
+App3Path="C:\Users\ayman_000\Desktop\Ebooks and Textbooks"
+ 
+App4="Modded Games"			
+App4Path="C:\Users\ayman_000\Desktop\Modded Games"
+ 
+App5="Music Editing"
+App5Path="C:\Users\ayman_000\Desktop\Music Editing"
+ 
+App6=
+App6Path=
+ 
+App7=""
+App7Path=
+ 
+App8=""
+App8Path=
+ 
+App9=""
+App9Path=
+ 
+App10=""
+App10Path=

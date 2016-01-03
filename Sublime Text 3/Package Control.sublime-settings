@@ -1,0 +1,46 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AlignTab",
+		"Android",
+		"AutoSoftWrap",
+		"BracketHighlighter",
+		"Clickable URLs",
+		"Emmet",
+		"File Navigator",
+		"Git",
+		"Gradle_Language",
+		"Gutter Color",
+		"Highlight Dodgy Chars",
+		"iOpener",
+		"Makefile Improved",
+		"MarkdownEditing",
+		"Material Theme",
+		"Materialize",
+		"Notes",
+		"orgmode",
+		"OrigamiEmacs",
+		"Package Control",
+		"PackageResourceViewer",
+		"PowerShell",
+		"Print to HTML",
+		"Racket",
+		"Rainbowth",
+		"Sass",
+		"Seti_UI",
+		"Seti_UX",
+		"SFTP",
+		"SideBarEnhancements",
+		"sublemacspro",
+		"SublimeREPL",
+		"Surround",
+		"Swift",
+		"Theme - Brogrammer",
+		"Theme - Piatto",
+		"Transparency"
+	]
+}

@@ -1,0 +1,19 @@
+ls
+ls
+cd ..
+ls
+ls -al
+cd ..
+ls
+ls --color
+ls -c
+cd apcs1/
+ls
+git status
+git checkout hw47/OrderedArrayList.java
+git status
+git pull
+ls
+cd hw48
+cd hw47
+ls

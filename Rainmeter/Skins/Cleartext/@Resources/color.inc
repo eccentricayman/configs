@@ -1,0 +1,1 @@
+[Variables]translucent=255,70,0,128opaque=255,70,0,255over=177,177,177,128

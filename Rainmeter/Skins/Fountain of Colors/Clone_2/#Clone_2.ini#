@@ -1,0 +1,15 @@
+n[Rainmeter]
+; Colors are retrieved from another skin
+OnRefreshAction=[!CommandMeasure ScriptColorChanger """AddChild("[CurrentConfig]")""" "#ROOTCONFIG#"]
+
+@Include=#@#Variables.inc
+
+; Override
+[Variables]
+Angle=0
+Invert=0
+Channel=Avg
+Port=Output
+ID=""
+
+@Include=#@##SkinGroup#.inc
