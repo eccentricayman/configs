@@ -1,4 +1,4 @@
-#<img src="http://emacs.sexy/img/emacs-icon.png" width="36"> Emacs
+#<img src="http://emacs.sexy/img/emacs-icon.png" width="48"> Emacs
 
 This is my current emacs customization. A list of included packages:
 
