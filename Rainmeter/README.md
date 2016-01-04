@@ -8,7 +8,7 @@ My custom RainMeter configuration with two themes. It probably won't scale prope
 3. If you wish to keep your previous Rainmeter configuration, add the skins manually.
 
 ####Firewatch
-<img src="https://i.imgur.com/oNG9ub0.png" width="48"> 
+<img src="https://i.imgur.com/oNG9ub0.png"> 
 
 ###Mountain Night
-<img src="http://i.imgur.com/vZ6WH40.png" width="48">
+<img src="http://i.imgur.com/vZ6WH40.png">
