@@ -1,0 +1,112 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("c:/Users/ayman_000/Documents/GitHub/apcs1/" . "hw59/")
+ ("c:/Users/ayman_000/AppData/Roaming/.emacs.d/lisp/" . "ido-speed-hack/")
+ ("c:/Users/ayman_000/AppData/Roaming/.emacs.d/" . "lisp/")
+ ("c:/Users/ayman_000/AppData/Roaming/" . ".emacs.d/")
+ ("C:/Users/ayman_000/Documents/GitHub/" . "Encryptuuu/")
+ ("C:/Users/ayman_000/Documents/" . "GitHub/")
+ ("C:/Users/ayman_000/" . "Documents/")
+ ("c:/Users/" . "ayman_000/")
+ ("c:/Users/ayman_000/AppData/" . "Roaming/")
+ ("c:/Users/ayman_000/Documents/GitHub/contests/usaco_jan/" . "b1/")
+ ("c:/Users/ayman_000/Documents/GitHub/contests/" . "usaco_jan/")
+ ("c:/Users/ayman_000/Documents/GitHub/" . "Encryptuuu/")
+ ("c:/Users/ayman_000/Documents/" . "GitHub/")
+ ("/Users/ayman_000/AppData/" . "Roaming/")
+ ("/Users/ayman_000/" . "AppData/")
+ ("/Users/" . "ayman_000/")
+ ("/" . "Users/")
+ ("c:/Users/ayman_000/" . "Documents/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "c:/Users/ayman_000/Documents/GitHub/Encryptuuu/"
+ "c:/Users/ayman_000/AppData/Roaming/"
+ "C:/Users/ayman_000/Documents/GitHub/Encryptuuu/"
+ "c:/Users/ayman_000/Documents/GitHub/apcs1/hw59/"
+ "c:/Users/ayman_000/Documents/GitHub/FinalProject/"
+ "c:/Users/ayman_000/AppData/Roaming/.emacs.d/lisp/ido-speed-hack/"
+ "c:/Users/ayman_000/Documents/GitHub/contests/usaco_jan/b1/"
+ "c:/Users/ayman_000/Documents/GitHub/contests/usaco_jan/b2/"
+ "/Users/ayman_000/AppData/Roaming/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "AI.java"
+ ".emacs"
+ "to-do.txt"
+ "Chest.java"
+ "Tutorial.java"
+ "Position.java"
+ "Character.java"
+ "Equips.java"
+ "Player.java"
+ "temp.txt"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("c:/Users/ayman_000/Documents/GitHub/Encryptuuu/" (22179 1412 0 0) "Tutorial.java" "to-do.txt" "temp.txt" "StatCheck.java" "StatCheck.class" "README.md" "Position.java" "Player.java" "Main.java" "Game.java" "Equips.java" "Equips.class" "Chest.java" "Character.java" "Character.class" "Board.java" "AI.java" "AI.class" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/ayman_000/AppData/Roaming/" (22177 10234 0 0) "Xilisoft/" "vlc/" "uTorrent/" "Tunngle/" "tor/" "TeamViewer/" "SystemRequirementsLab/" "Synaptics/" "Sun/" "Sublime Text 3/" "Spotify/" "Skype/" "Riot Games/" "Rainmeter/" "Racket/" "QtProject/" "Qt/" "qBittorrent/" "PSReadline/" "psget/" "Processing/" "PrivateTunnel/" "Origin/" "Oracle/" "OpenVPN Technologies/" "OBS/" "NuGet/" "Notepad++/" "Need for Speed World/" "Mumble/" "Mozilla/" "Mirillis/" "Microsoft/" "Mathematica/" "Macromedia/" "LolClient/" "licecap.ini" "LibreOffice/" "JetBrains/" "JAM Software/" "Intel Corporation/" "InstallShield/" "Injustice/" "IDT/" "Identities/" "hpqLog/" "Highresolution Enterprises/" "Hide.me/" "HewlettPackard/" "Hewlett-Packard/" "HandBrake/" "Gyazo/" "gnupg/" "GitHub/" "ftblauncher/" "Freedom.to/" "Foxit Software/" "fltk.org/" "FileZilla/" "EndNote/" "emacs.png" "Dropbox/" "DivX/" "Digiarty/" "dclogs/" "CyberLink/" "Curse/" "Console/" "ConEmu.xml" "ClassicShell/" "Brackets/" "Bioshock Infinite/" "Battle.net/" "Awesomium/" "Audacity/" "Atom/" "Apple Computer/" "Apowersoft/" "AnvSoft/" "Adobe/" "Acronis/" ".ssh/" ".spacemacs.d/" ".minecraft/" ".history" ".gnupg/" ".emacsbackups/" ".emacs.d/" ".emacs" "../" "./")
+
+ ("c:/Users/ayman_000/" (22179 597 0 0) "_vimrc~" "_vimrc" "_viminfo" "Videos/" "Tracing/" "Templates/" "Start Menu/" "SkyDrive/" "SendTo/" "Searches/" "Saved Games/" "recycle.bat" "Recent/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.pol" "ntuser.ini" "NTUSER.DAT{9f037fb3-2982-11e3-93f1-b8ca3aee0e44}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{9f037fb3-2982-11e3-93f1-b8ca3aee0e44}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{9f037fb3-2982-11e3-93f1-b8ca3aee0e44}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "IdeaProjects/" "Favorites/" "emacs.png" "emacs-default.png" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Creative Cloud Files/" "Cookies/" "Contacts/" "cmder/" "Application Data/" "AppData/" "AndroidStudioProjects/" "._vimrc.swp" ".weblaf/" ".viminfo" ".vim/" ".ssh/" ".oracle_jre_usage/" ".local/" ".jampal/" ".idlerc/" ".IdeaIC14/" ".gradle/" ".gitconfig" ".emacs.d/" ".cache/" ".AndroidStudio1.4/" ".android/" "../" "./")
+
+ ("C:/Users/ayman_000/Documents/GitHub/Encryptuuu/" (22178 54624 0 0) "Tutorial.java" "to-do.txt" "temp.txt" "StatCheck.java" "StatCheck.class" "README.md" "Position.java" "Player.java" "Main.java" "Game.java" "Equips.java" "Equips.class" "Chest.java" "Character.java" "Character.class" "Board.java" "AI.java" ".gitignore" ".git/" "../" "./")
+
+ ("C:/Users/ayman_000/Documents/GitHub/" (22177 20248 0 0) "VimStuff/" "testing/" "SublimeSaves/" "StuyCSDojo.github.io/" "OGFireDogeMatrix/" "Number/" "FinalProjectFall2015-BillyWongMatthewZhu/" "FinalProjectCeline/" "Encryptuuu/" "eccentricayman.github.io/" "CustomConfigs/" "contests/" "Backup/" "apcs1/" "../" "./")
+
+ ("C:/Users/ayman_000/" (22178 22753 0 0) "_viminfo" "Videos/" "Tracing/" "Templates/" "Start Menu/" "spf13-vim-windows-install.cmd" "SkyDrive/" "settings/" "SendTo/" "Searches/" "Saved Games/" "recycle.bat" "Recent/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.pol" "ntuser.ini" "NTUSER.DAT{9f037fb3-2982-11e3-93f1-b8ca3aee0e44}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{9f037fb3-2982-11e3-93f1-b8ca3aee0e44}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{9f037fb3-2982-11e3-93f1-b8ca3aee0e44}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "IdeaProjects/" "font/" "Favorites/" "emacs.png" "emacs-default.png" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Creative Cloud Files/" "Cookies/" "Contacts/" "cmder/" "Application Data/" "AppData/" "AndroidStudioProjects/" ".weblaf/" ".viminfo" ".vim/" ".ssh/" ".spf13-vim-3/" ".oracle_jre_usage/" ".jampal/" ".idlerc/" ".IdeaIC14/" ".gradle/" ".gitconfig" ".emacs.d/" ".cache/" ".AndroidStudio1.4/" ".android/" "../" "./")
+
+ ("c:/Users/ayman_000/Documents/GitHub/apcs1/hw59/" (22178 21397 0 0) "free-response.txt" ".#free-response.txt" "#free-response.txt#" "../" "./")
+
+ ("c:/Users/ayman_000/Documents/GitHub/apcs1/" (22178 16176 0 0) "README.md" "notes/" "Misc/" "hw59/" "hw54/" "hw53/" "hw52/" "hw51/" "hw50/" "hw48/" "hw47/" "hw46/" "hw44/" "hw43/" "hw42/" "hw41/" "hw40/" "hw39/" "hw38/" "hw36/" "hw35/" "hw34/" "hw30/" "hw28/" "hw27/" "hw26/" "hw25/" "hw24/" "hw22/" "hw21/" "hw20/" "hw18/" "hw17/" "hw16/" "hw15/" "hw14/" "hw13/" "hw12/" "hw10/" "hw08/" "heading.txt" "heading.java" "heading.class" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/ayman_000/Documents/GitHub/" (22177 20248 0 0) "VimStuff/" "testing/" "SublimeSaves/" "StuyCSDojo.github.io/" "OGFireDogeMatrix/" "Number/" "FinalProjectFall2015-BillyWongMatthewZhu/" "FinalProjectCeline/" "Encryptuuu/" "eccentricayman.github.io/" "CustomConfigs/" "contests/" "Backup/" "apcs1/" "../" "./")
+
+ ("/Users/ayman_000/AppData/Roaming/" (22175 60992 0 0) "Xilisoft/" "vlc/" "uTorrent/" "Tunngle/" "tor/" "TeamViewer/" "SystemRequirementsLab/" "Synaptics/" "Sun/" "Sublime Text 3/" "Spotify/" "Skype/" "Riot Games/" "Rainmeter/" "Racket/" "QtProject/" "Qt/" "qBittorrent/" "PSReadline/" "psget/" "Processing/" "PrivateTunnel/" "Origin/" "Oracle/" "OpenVPN Technologies/" "OBS/" "NuGet/" "Notepad++/" "Need for Speed World/" "Mumble/" "Mozilla/" "Mirillis/" "Microsoft/" "Mathematica/" "Macromedia/" "LolClient/" "licecap.ini" "LibreOffice/" "JetBrains/" "JAM Software/" "Intel Corporation/" "InstallShield/" "Injustice/" "IDT/" "Identities/" "hpqLog/" "Highresolution Enterprises/" "Hide.me/" "HewlettPackard/" "Hewlett-Packard/" "HandBrake/" "Gyazo/" "gnupg/" "GitHub/" "ftblauncher/" "Freedom.to/" "Foxit Software/" "fltk.org/" "FileZilla/" "EndNote/" "emacs.png" "Dropbox/" "DivX/" "Digiarty/" "dclogs/" "CyberLink/" "Curse/" "Console/" "ConEmu.xml" "ClassicShell/" "Brackets/" "Bioshock Infinite/" "Battle.net/" "Awesomium/" "Audacity/" "Atom/" "Apple Computer/" "Apowersoft/" "AnvSoft/" "Adobe/" "Acronis/" ".ssh/" ".spacemacs.d/" ".minecraft/" ".history" ".gnupg/" ".emacsbackups/" ".emacs.d/" ".emacs" "../" "./")
+
+ ("c:/Users/ayman_000/AppData/Roaming/.emacs.d/lisp/ido-speed-hack/" (22175 60715 0 0) "ido-speed-hack.elc" "ido-speed-hack.el" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/ayman_000/Documents/GitHub/FinalProject/" (22175 61372 0 0) "README.md" "Character.java" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/ayman_000/Dropbox/" (22124 63018 0 0) "~$man Ahmed's Algae relab.docx" "Screenshots/" "Met Cover.docx" "Manet and De___.docx" "Genetics Projects/" "desktop.ini" "Armor for Man and Horse.docx" "02_AhmedA/" ".dropbox.cache/" ".dropbox" "../" "./")
+
+ ("c:/Users/ayman_000/AppData/Roaming/.emacs.d/lisp/" (22175 59842 0 0) "ido-speed-hack/" "../" "./")
+
+ ("c:/Users/ayman_000/AppData/Roaming/.emacs.d/" (22175 60038 0 0) "url/" "tramp" "themes/" "smex-items" "server/" "recentf" "lisp/" "ido.last" "eshell/" "elpa/" "auto-save-list/" "ac-comphist.dat" ".tutor/" "../" "./")
+
+ ("C:/Users/ayman_000/Documents/" (22171 61273 0 0) "~WRL3570.tmp" "~WRL0003.tmp" "~$use_Water_Leak_DEP_Letter.docx" "~$od Journal.docx" "~$man Ahmed's Transcription for English.docx" "~$man Ahmed's Lab #4 PreLab.docx" "~$man Ahmed's Lab #1 Grasshopper Dissection.docx" "~$man Ahmed's La Comida Mexicana.docx" "~$man Ahmed's H.W #4.docx" "~$man Ahmed's Chapter 7 Project.docx" "~$GOutlineNIDDM.docx" "~$glish I-search dRaft.docx" "~$CSTLB.docx" "~$anscription.docx" "~$abetesType2HGIntro.docx" "YUS FIBONACCI.rkt" "Youcam/" "WindowsPowerShell/" "Vamos a Venezuela.docx" "TrigReviewEC.docx" "Transcription.docx" "Transcription (Autosaved).docx" "timesheet (1).xlsm" "The scene in which Vronsky races with the horse casts a deep foreshadowing of how Vronsky.docx" "testdata.csv" "StuyLibrary/" "Stuy Wi-Fi SSID and Password.pptx" "sterr_writeupfinal.docx" "stern_termproject.docx" "SpotifyWebRecorder/" "SPANISH.odt" "SimplePickAndMove.nlogo" "Scan_20150922.pdf" "Scanned Documents/" "Rider to the Lease.docx" "Razer/" "Rainmeter/" "Quantum_Conspiracy.docx" "Processing/" "Popcorn Time.lnk" "PLANTS PHOTOSYNTHESIS LAZY SISTER.docx" "output-server.log" "output-client.log" "options.txt" "OpenDownloadForm.pdf" "Notepad++/" "Non Insulin-Dependent Diabetes Mellitus_PDFVERSION.pdf" "Nexus Mod Manager/" "NEW GUNS GERMS STEEL ACUTAL ASSIGNMENT PREVIOUS WAS A FAIL.docx" "MyTiData/" "My Videos/" "My Pictures/" "My Music/" "My games/" "Music Appreciation Study Guide.doc" "MumbleAutomaticCertificateBackup.p12" "Modding/" "Minutes_3-11.docx" "Minutes.docx" "Minutes for January 14th.docx" "madlibs2.py" "LOLReplay/" "launcher_profiles.json" "hw53_day9review.rkt" "hw49.py" "hw46.py" "hw32_recursethroughnumerals.rkt" "hw31_remainingfunctions.rkt" "hw30_sublistsreprise.rkt" "hw29_sublists-equality.rkt" "hw29.py" "hw28_axElement.rkt" "hw27_reversefactorialfib.rkt" "hw26_listsotherends.rkt" "hw24_sumoflist.rkt" "hw23_owntest2.rkt" "hw19_listandappend.rkt" "hw18_harderlistanalysis.rkt" "hw17_listanalysis.rkt" "hw15_ownTest1.rkt" "hw13_cond.rkt" "hw13_booleanoperators.rkt" "hw12_simpleifs.rkt" "hw11_moduloandquotient.rkt" "hudsonguildfinalapplication2015.pdf" "hp.system.package.metadata/" "hp.applications.package.appdata/" "House_Water_Leak_DEP_Letter.docx" "healtharticle2.docx" "H2GOutlineNIDDM.docx" "Guns.docx" "GitHub/" "Food Journal.docx" "FINALPAPERGENETICSNIDDMFINALLY.docx" "Final Project!!!/" "Figure.docx" "Fax/" "fang_healtharticle2.docx" "fang_healtharticle1.docx" "fang_foodlabels.docx" "fang_finalproject.docx" "FAIMIRUHISTORIAPROJECTU.docx" "EnglishMnMattractingmates.docx" "English I-search dRaft.docx" "echoGet.py" "EasyBCD Backup (2015-03-21).bcd" "Downloads/" "Doc1.docx" "DiabetesType2HGIntro.docx" "desktop.ini" "depressionposter.pptx" "DDAYGeneticsEssay.docx" "Custom Office Templates/" "CSTLB.docx" "Criterion Games/" "Computer Architecture Terms.docx" "CompSciGrading.rkt" "CandideinStuy.docx" "build-StuyLibrary-Desktop_Qt_5_5_1_MinGW_32bit-Debug/" "Battlefield 3/" "bard4.odt" "Ayman Ahmed's Waxman Global Study Guide for Finals.doc" "Ayman Ahmed's Transcription for English.docx" "Ayman Ahmed's The Complete Odyssey-essey.docx" "Ayman Ahmed's Tarea #5.docx" "Ayman Ahmed's Tarea #13.docx" "Ayman Ahmed's Student.docx" "Ayman Ahmed's Pro Case (January 2013).docx" "Ayman Ahmed's Photosynthesis Extra Credit.docx" "Ayman Ahmed's Music Appreciation Listening List.docx" "Ayman Ahmed's Monologue Project Reflection.docx" "Ayman Ahmed's Minutes for March 14th.docx" "Ayman Ahmed's Lab #4 PreLab.docx" "Ayman Ahmed's Lab #11.docx" "Ayman Ahmed's Lab #1 Grasshopper Dissection.docx" "Ayman Ahmed's H.W #4.docx" "Ayman Ahmed's Grasshopper Lab.docx" "Ayman Ahmed's Genetics Extra Credit.docx" "Ayman Ahmed's Frog Dissection PreLab.docx" "Ayman Ahmed's Excretory System H.W.docx" "Ayman Ahmed's Ever Cringe-Worthy Recursion Rhymes.odt" "Ayman Ahmed's Ever Cringe-Worthy Recursion Rhymes.docx" "Ayman Ahmed's Endocrine Disruptors.docx" "Ayman Ahmed's Chapter 7.2 Project.docx" "Ayman Ahmed's Chapter 7 Project.docx" "Ayman Ahmed's Chapter 7 Project Presentation.pptx" "Ayman Ahmed's Chapter 33 Outline.docx" "Ayman Ahmed's Assignment #6.docx" "Ayman Ahmed's Art Portfolio.docx" "Ayman Ahmed's Alstroemeria Collage.pptx" "Ayman Ahmed's  Osteoporosis.docx" "Art Autobiography.docx" "aofnaosinsoifnseoifnweofiwenfoiwnfoiwnwoeifew.rkt" "aofnaosinsoifnseoifnweofiwenfoiwnfoiwnwoeifew.bak" "anna_karenina_thesis_essay_1.docx" "Animania.docx" "Amnesia/" "America is commonly referred to as a giant melting pot of different people and cultures.docx" "ambia_videogamestory.docx" "ambia_routine.docx" "3rd nytimes article.docx" "3rd nytimes article HAHA LIAR U DIDNT EVEN START MY FIRST ONE.docx" "../" "./")
+
+ ("c:/Users/ayman_000/Documents/GitHub/OGFireDogeMatrix/" (22157 42664 0 0) "README.md" "Matrix.java" "Matrix.class" ".gitignore" ".git/" "../" "./")
+
+ ("c:/Users/ayman_000/Documents/GitHub/FinalProjectFall2015-BillyWongMatthewZhu/" (22163 62394 0 0) "WhatToDo.txt" "Trainers.txt" "test/" "README.md" "Pokemon GB.ttf" "Pokemon/" "Data Collection/" ".git/" "../" "./")
+
+ ("c:/Users/ayman_000/Documents/GitHub/contests/usaco_jan/b2/" (22172 44852 0 0) "angry.java" "../" "./")
+
+ ("c:/Users/" (22130 23262 0 0) "Public/" "desktop.ini" "Default.migrated/" "Default User/" "Default/" "ayman_000/" "amrin_000/" "All Users/" "Ahmed Family PC/" "../" "./")
+
+ ("c:/Users/ayman_000/Documents/GitHub/contests/usaco_jan/b1/" (22172 42985 0 0) "promote.out" "promote.java" "promote.in" "promote.class" "../" "./")
+
+ ("c:/Users/ayman_000/Documents/GitHub/contests/usaco_jan/" (22172 31596 0 0) "b3/" "b2/" "b1/" "../" "./")
+
+ ("c:/Users/ayman_000/Documents/GitHub/contests/" (22172 31575 0 0) "usaco_jan/" "usaco_dec/" "adventofcode2k15/" "../" "./")
+
+ ("/Users/ayman_000/AppData/" (21156 58998 0 0) "Roaming/" "LocalLow/" "Local/" "../" "./")
+
+ ("/Users/ayman_000/" (22172 1014 0 0) "Videos/" "Tracing/" "Templates/" "Start Menu/" "SkyDrive/" "SendTo/" "Searches/" "Saved Games/" "recycle.bat" "Recent/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.pol" "ntuser.ini" "NTUSER.DAT{9f037fb3-2982-11e3-93f1-b8ca3aee0e44}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{9f037fb3-2982-11e3-93f1-b8ca3aee0e44}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{9f037fb3-2982-11e3-93f1-b8ca3aee0e44}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "IdeaProjects/" "Favorites/" "emacs.png" "emacs-default.png" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Creative Cloud Files/" "Cookies/" "Contacts/" "cmder/" "Application Data/" "AppData/" "AndroidStudioProjects/" ".weblaf/" ".ssh/" ".jampal/" ".idlerc/" ".IdeaIC14/" ".gradle/" ".emacs.d/" ".AndroidStudio1.4/" ".android/" "../" "./")
+
+ ("/Users/" (22130 23262 0 0) "Public/" "desktop.ini" "Default.migrated/" "Default User/" "Default/" "ayman_000/" "amrin_000/" "All Users/" "Ahmed Family PC/" "../" "./")
+
+ ("c:/Users/ayman_000/AppData/" (21156 58998 0 0) "Roaming/" "LocalLow/" "Local/" "../" "./")
+
+ ("c:/Users/ayman_000/Documents/" (22171 61273 0 0) "~WRL3570.tmp" "~WRL0003.tmp" "~$use_Water_Leak_DEP_Letter.docx" "~$od Journal.docx" "~$man Ahmed's Transcription for English.docx" "~$man Ahmed's Lab #4 PreLab.docx" "~$man Ahmed's Lab #1 Grasshopper Dissection.docx" "~$man Ahmed's La Comida Mexicana.docx" "~$man Ahmed's H.W #4.docx" "~$man Ahmed's Chapter 7 Project.docx" "~$GOutlineNIDDM.docx" "~$glish I-search dRaft.docx" "~$CSTLB.docx" "~$anscription.docx" "~$abetesType2HGIntro.docx" "YUS FIBONACCI.rkt" "Youcam/" "WindowsPowerShell/" "Vamos a Venezuela.docx" "TrigReviewEC.docx" "Transcription.docx" "Transcription (Autosaved).docx" "timesheet (1).xlsm" "The scene in which Vronsky races with the horse casts a deep foreshadowing of how Vronsky.docx" "testdata.csv" "StuyLibrary/" "Stuy Wi-Fi SSID and Password.pptx" "sterr_writeupfinal.docx" "stern_termproject.docx" "SpotifyWebRecorder/" "SPANISH.odt" "SimplePickAndMove.nlogo" "Scan_20150922.pdf" "Scanned Documents/" "Rider to the Lease.docx" "Razer/" "Rainmeter/" "Quantum_Conspiracy.docx" "Processing/" "Popcorn Time.lnk" "PLANTS PHOTOSYNTHESIS LAZY SISTER.docx" "output-server.log" "output-client.log" "options.txt" "OpenDownloadForm.pdf" "Notepad++/" "Non Insulin-Dependent Diabetes Mellitus_PDFVERSION.pdf" "Nexus Mod Manager/" "NEW GUNS GERMS STEEL ACUTAL ASSIGNMENT PREVIOUS WAS A FAIL.docx" "MyTiData/" "My Videos/" "My Pictures/" "My Music/" "My games/" "Music Appreciation Study Guide.doc" "MumbleAutomaticCertificateBackup.p12" "Modding/" "Minutes_3-11.docx" "Minutes.docx" "Minutes for January 14th.docx" "madlibs2.py" "LOLReplay/" "launcher_profiles.json" "hw53_day9review.rkt" "hw49.py" "hw46.py" "hw32_recursethroughnumerals.rkt" "hw31_remainingfunctions.rkt" "hw30_sublistsreprise.rkt" "hw29_sublists-equality.rkt" "hw29.py" "hw28_axElement.rkt" "hw27_reversefactorialfib.rkt" "hw26_listsotherends.rkt" "hw24_sumoflist.rkt" "hw23_owntest2.rkt" "hw19_listandappend.rkt" "hw18_harderlistanalysis.rkt" "hw17_listanalysis.rkt" "hw15_ownTest1.rkt" "hw13_cond.rkt" "hw13_booleanoperators.rkt" "hw12_simpleifs.rkt" "hw11_moduloandquotient.rkt" "hudsonguildfinalapplication2015.pdf" "hp.system.package.metadata/" "hp.applications.package.appdata/" "House_Water_Leak_DEP_Letter.docx" "healtharticle2.docx" "H2GOutlineNIDDM.docx" "Guns.docx" "GitHub/" "Food Journal.docx" "FINALPAPERGENETICSNIDDMFINALLY.docx" "Final Project!!!/" "Figure.docx" "Fax/" "fang_healtharticle2.docx" "fang_healtharticle1.docx" "fang_foodlabels.docx" "fang_finalproject.docx" "FAIMIRUHISTORIAPROJECTU.docx" "EnglishMnMattractingmates.docx" "English I-search dRaft.docx" "echoGet.py" "EasyBCD Backup (2015-03-21).bcd" "Downloads/" "Doc1.docx" "DiabetesType2HGIntro.docx" "desktop.ini" "depressionposter.pptx" "DDAYGeneticsEssay.docx" "Custom Office Templates/" "CSTLB.docx" "Criterion Games/" "Computer Architecture Terms.docx" "CompSciGrading.rkt" "CandideinStuy.docx" "build-StuyLibrary-Desktop_Qt_5_5_1_MinGW_32bit-Debug/" "Battlefield 3/" "bard4.odt" "Ayman Ahmed's Waxman Global Study Guide for Finals.doc" "Ayman Ahmed's Transcription for English.docx" "Ayman Ahmed's The Complete Odyssey-essey.docx" "Ayman Ahmed's Tarea #5.docx" "Ayman Ahmed's Tarea #13.docx" "Ayman Ahmed's Student.docx" "Ayman Ahmed's Pro Case (January 2013).docx" "Ayman Ahmed's Photosynthesis Extra Credit.docx" "Ayman Ahmed's Music Appreciation Listening List.docx" "Ayman Ahmed's Monologue Project Reflection.docx" "Ayman Ahmed's Minutes for March 14th.docx" "Ayman Ahmed's Lab #4 PreLab.docx" "Ayman Ahmed's Lab #11.docx" "Ayman Ahmed's Lab #1 Grasshopper Dissection.docx" "Ayman Ahmed's H.W #4.docx" "Ayman Ahmed's Grasshopper Lab.docx" "Ayman Ahmed's Genetics Extra Credit.docx" "Ayman Ahmed's Frog Dissection PreLab.docx" "Ayman Ahmed's Excretory System H.W.docx" "Ayman Ahmed's Ever Cringe-Worthy Recursion Rhymes.odt" "Ayman Ahmed's Ever Cringe-Worthy Recursion Rhymes.docx" "Ayman Ahmed's Endocrine Disruptors.docx" "Ayman Ahmed's Chapter 7.2 Project.docx" "Ayman Ahmed's Chapter 7 Project.docx" "Ayman Ahmed's Chapter 7 Project Presentation.pptx" "Ayman Ahmed's Chapter 33 Outline.docx" "Ayman Ahmed's Assignment #6.docx" "Ayman Ahmed's Art Portfolio.docx" "Ayman Ahmed's Alstroemeria Collage.pptx" "Ayman Ahmed's  Osteoporosis.docx" "Art Autobiography.docx" "aofnaosinsoifnseoifnweofiwenfoiwnfoiwnwoeifew.rkt" "aofnaosinsoifnseoifnweofiwenfoiwnfoiwnwoeifew.bak" "anna_karenina_thesis_essay_1.docx" "Animania.docx" "Amnesia/" "America is commonly referred to as a giant melting pot of different people and cultures.docx" "ambia_videogamestory.docx" "ambia_routine.docx" "3rd nytimes article.docx" "3rd nytimes article HAHA LIAR U DIDNT EVEN START MY FIRST ONE.docx" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

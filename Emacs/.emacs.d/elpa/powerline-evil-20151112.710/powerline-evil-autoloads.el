@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "powerline-evil" "powerline-evil.el" (22132
-;;;;;;  39244 0 0))
+;;;### (autoloads nil "powerline-evil" "powerline-evil.el" (22170
+;;;;;;  57280 0 0))
 ;;; Generated autoloads from powerline-evil.el
 
 (autoload 'powerline-evil-face "powerline-evil" "\
@@ -15,7 +15,7 @@ Function to select appropriate face based on `evil-state'.
 ;;;***
 
 ;;;### (autoloads nil "powerline-evil-themes" "powerline-evil-themes.el"
-;;;;;;  (22132 39244 0 0))
+;;;;;;  (22170 57280 0 0))
 ;;; Generated autoloads from powerline-evil-themes.el
 
 (autoload 'powerline-evil-center-color-theme "powerline-evil-themes" "\
@@ -35,8 +35,8 @@ Powerline's Vim-like mode-line with evil state at the beginning in color.
 
 ;;;***
 
-;;;### (autoloads nil nil ("powerline-evil-pkg.el") (22132 39245
-;;;;;;  81000 0))
+;;;### (autoloads nil nil ("powerline-evil-pkg.el") (22170 57280
+;;;;;;  773000 0))
 
 ;;;***
 

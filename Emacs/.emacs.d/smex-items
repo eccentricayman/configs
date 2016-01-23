@@ -1,0 +1,61 @@
+
+;; ----- smex-history -----
+(
+ load-file
+ profiler-start
+ windresize
+ text-mode
+ java-mode
+ list-packages
+ eval-buffer
+)
+
+;; ----- smex-data -----
+(
+ (reindent-then-newline-and-indent . 1)
+ (indent-according-to-mode . 1)
+ (checkdoc-eval-current-buffer . 1)
+ (indent-rigidly . 1)
+ (eldoc-mode . 1)
+ (eval-buffer . 19)
+ (ido-mode . 1)
+ (list-packages . 7)
+ (package-refresh-contents . 2)
+ (customize-variable . 1)
+ (toggle-frame-fullscreen . 1)
+ (2048-game . 3)
+ (copy-rectangle-to-register . 1)
+ (java-mode . 5)
+ (vc-pull . 1)
+ (vc-register . 1)
+ (server-start . 1)
+ (ansi-term . 2)
+ (shell . 1)
+ (eshell . 2)
+ (org-mode . 2)
+ (load-theme . 2)
+ (byte-compile-file . 1)
+ (profiler-start . 2)
+ (profiler-report . 2)
+ (font-lock-mode . 2)
+ (type-break-mode . 1)
+ (nlinum-mode . 4)
+ (linum-mode . 4)
+ (life . 1)
+ (cua-mode . 2)
+ (evil-mode . 6)
+ (undo-tree-undo . 1)
+ (undo-tree-mode . 3)
+ (powerline-evil-vim-theme . 2)
+ (powerline-evil-vim-color-theme . 1)
+ (evil-operator-shortcut-mode . 1)
+ (normal-mode . 1)
+ (powerline-reset . 1)
+ (buffer-face-mode . 1)
+ (iswitchb-mode . 2)
+ (neotree-projectile-action . 1)
+ (windresize . 6)
+ (text-mode . 2)
+ (windresize-balance-windows . 1)
+ (load-file . 1)
+)
