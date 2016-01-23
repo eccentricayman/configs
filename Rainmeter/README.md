@@ -13,3 +13,6 @@ My custom RainMeter configuration with two themes. It probably won't scale prope
 
 ###Mountain Night
 <img src="http://i.imgur.com/vZ6WH40.png">
+
+###Pi
+<img src="https://i.imgur.com/4iK9y5G.png">

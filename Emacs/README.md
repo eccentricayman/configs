@@ -44,3 +44,30 @@ Automatically updates Emacs packages.
 
 ###Aurora-Theme
 A clone of Sublime Text's [Material Theme](https://equinusocio.github.io/material-theme/) for Emacs.
+
+###Atom-One-Dark-Theme
+A clone of Atom's default dark theme.
+
+###Ido-Mode
+Fuzzy file searching.
+
+###Ido-Speed-Hack
+Increases speed of smex.
+
+###Ido-Better-Flex
+Uses a better fuzzy searching algorithm.
+
+###WindResize
+Interactively resize windows.
+
+###Spaceline
+The Spacemacs version of powerline.
+
+###2048-Game
+Allows you to play 2048 in a buffer.
+
+###NeoTree
+A Emacs ported version of Vim's NERDTree.
+
+###Ido-Vertical-Mode
+Displays Ido and Smex results vertically.
