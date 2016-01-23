@@ -1,5 +1,8 @@
 #<img src="http://emacs.sexy/img/emacs-icon.png" width="48"> Emacs
 
+##ScreenShot
+<img src="http://i.imgur.com/UuXsrO4.png" width="48">
+
 ##Installation
 1. Find your current Emacs directory, on Linux it's your home directory, and on Windows it's located at ~/AppData/Roaming. 
 2. Replace your .emacs and .emacs.d with the ones provided here.
