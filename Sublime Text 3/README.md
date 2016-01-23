@@ -1,6 +1,8 @@
 #<img src="https://packagecontrol.io/readmes/img/e35154430afbc80787c7d566a4f9b8dd41f6466f.png" width="48"> Sublime Text 3
 
 Possibly my most configured setup.
+##Screenshots
+<img src="https://i.imgur.com/bTBjuaP.png">
 
 ##Installation
 1. Install Package Control by following the instructions [here](https://packagecontrol.io/installation).
