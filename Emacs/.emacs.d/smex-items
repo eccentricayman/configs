@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- load-file
- profiler-start
- windresize
- text-mode
- java-mode
- list-packages
+ emacs-init-time
  eval-buffer
+ set-background-color
+ nlinum-mode
+ linum-mode
+ menu-bar-showhide-tool-bar-menu-customize-disable
+ list-packages
 )
 
 ;; ----- smex-data -----
@@ -17,9 +17,9 @@
  (checkdoc-eval-current-buffer . 1)
  (indent-rigidly . 1)
  (eldoc-mode . 1)
- (eval-buffer . 19)
+ (eval-buffer . 50)
  (ido-mode . 1)
- (list-packages . 7)
+ (list-packages . 9)
  (package-refresh-contents . 2)
  (customize-variable . 1)
  (toggle-frame-fullscreen . 1)
@@ -34,19 +34,19 @@
  (eshell . 2)
  (org-mode . 2)
  (load-theme . 2)
- (byte-compile-file . 1)
+ (byte-compile-file . 3)
  (profiler-start . 2)
  (profiler-report . 2)
  (font-lock-mode . 2)
  (type-break-mode . 1)
- (nlinum-mode . 4)
- (linum-mode . 4)
+ (nlinum-mode . 7)
+ (linum-mode . 6)
  (life . 1)
  (cua-mode . 2)
- (evil-mode . 6)
+ (evil-mode . 8)
  (undo-tree-undo . 1)
  (undo-tree-mode . 3)
- (powerline-evil-vim-theme . 2)
+ (powerline-evil-vim-theme . 3)
  (powerline-evil-vim-color-theme . 1)
  (evil-operator-shortcut-mode . 1)
  (normal-mode . 1)
@@ -58,4 +58,14 @@
  (text-mode . 2)
  (windresize-balance-windows . 1)
  (load-file . 1)
+ (customize-face . 1)
+ (toggle-debug-on-error . 1)
+ (eval-defun . 1)
+ (set-background-color . 6)
+ (butterfly . 1)
+ (emacs-init-time . 6)
+ (benchmark . 2)
+ (powerline-default-theme . 2)
+ (menu-bar-showhide-tool-bar-menu-customize-disable . 1)
+ (byte-recompile-file . 1)
 )
