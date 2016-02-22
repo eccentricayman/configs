@@ -1,12 +1,12 @@
 
 ;; ----- smex-history -----
 (
- emacs-init-time
+ load-theme
+ load-file
+ evil-mode
+ powerline-default-theme
+ eval-expression
  eval-buffer
- set-background-color
- nlinum-mode
- linum-mode
- menu-bar-showhide-tool-bar-menu-customize-disable
  list-packages
 )
 
@@ -17,7 +17,7 @@
  (checkdoc-eval-current-buffer . 1)
  (indent-rigidly . 1)
  (eldoc-mode . 1)
- (eval-buffer . 50)
+ (eval-buffer . 53)
  (ido-mode . 1)
  (list-packages . 9)
  (package-refresh-contents . 2)
@@ -33,7 +33,7 @@
  (shell . 1)
  (eshell . 2)
  (org-mode . 2)
- (load-theme . 2)
+ (load-theme . 16)
  (byte-compile-file . 3)
  (profiler-start . 2)
  (profiler-report . 2)
@@ -43,21 +43,21 @@
  (linum-mode . 6)
  (life . 1)
  (cua-mode . 2)
- (evil-mode . 8)
+ (evil-mode . 10)
  (undo-tree-undo . 1)
  (undo-tree-mode . 3)
  (powerline-evil-vim-theme . 3)
  (powerline-evil-vim-color-theme . 1)
  (evil-operator-shortcut-mode . 1)
  (normal-mode . 1)
- (powerline-reset . 1)
+ (powerline-reset . 8)
  (buffer-face-mode . 1)
  (iswitchb-mode . 2)
  (neotree-projectile-action . 1)
  (windresize . 6)
  (text-mode . 2)
  (windresize-balance-windows . 1)
- (load-file . 1)
+ (load-file . 4)
  (customize-face . 1)
  (toggle-debug-on-error . 1)
  (eval-defun . 1)
@@ -65,7 +65,11 @@
  (butterfly . 1)
  (emacs-init-time . 6)
  (benchmark . 2)
- (powerline-default-theme . 2)
+ (powerline-default-theme . 4)
  (menu-bar-showhide-tool-bar-menu-customize-disable . 1)
  (byte-recompile-file . 1)
+ (package-install . 1)
+ (color-theme-approximate-on . 1)
+ (color-theme-approximate-off . 2)
+ (eval-expression . 1)
 )
