@@ -1,13 +1,7 @@
 alias ls='ls --color'
 alias ll='ls -al'
 
-echo "
-       _ __   ____   __  _     __  __    _    ___  
-      / \\\\ \ / /\ \ / / | |   |  \/  |  / \  / _ \ 
-     / _ \\\\ V /  \ V /  | |   | |\/| | / _ \| | | |
-    / ___ \| |    | |   | |___| |  | |/ ___ \ |_| |
-   /_/   \_\_|    |_|   |_____|_|  |_/_/   \_\___/ 
-   "
+~/.screenFetch/screenfetch
 
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
