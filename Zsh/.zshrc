@@ -1,3 +1,4 @@
+#Custom zshrc by eccentricayman on Github
 #
 # Executes commands at the start of an interactive session.
 #

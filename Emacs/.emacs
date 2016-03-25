@@ -1,3 +1,4 @@
+;Custom emacs configuration by eccentricayman on Github
 ;(let ((file-name-handler-alist nil))
 ;(run-with-idle-timer
 ; 5 nil

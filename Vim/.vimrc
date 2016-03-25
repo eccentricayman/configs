@@ -1,3 +1,4 @@
+"custom vimrc by eccentricayman on Github
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
