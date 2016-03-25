@@ -1,0 +1,75 @@
+#/bin/bash
+
+#######################################################
+# Function that handles the number of screens present #
+#######################################################
+
+function screens {
+	case $1 in
+		1)
+		bash /home/kelaun/.screenlayout/Laptop.sh
+		feh --no-fehbg --bg-fill /mnt/multimedia/Pictures/wolf-laptop.jpg
+		killall conky lemonbar hide_lemonbar.sh
+                nohup /home/kelaun/Scripts/start_lemonbar.sh 1 &>/dev/null &
+                nohup /home/kelaun/Scripts/hide_lemonbar.sh 1 &>/dev/null &
+		nohup conky &>/dev/null &
+		;;
+		2)
+		locations
+		;;
+		*)
+		echo "Not a valid number of screens"
+		;;
+	esac
+}
+
+##############################################################
+# Function that handles where you are (order of the screens) #
+##############################################################
+
+function locations {
+	echo "Where are you?"
+	read location
+
+	case $location in
+		home)
+		bash /home/kelaun/.screenlayout/Home.sh
+		feh --no-fehbg --bg-fill /mnt/multimedia/Pictures/wolf-laptop.jpg /mnt/multimedia/Pictures/wolf-home.jpg
+		killall conky lemonbar hide_lemonbar.sh
+                nohup /home/kelaun/Scripts/start_lemonbar.sh 1 &>/dev/null &
+                nohup /home/kelaun/Scripts/hide_lemonbar.sh 1 &>/dev/null &
+                nohup conky &>/dev/null &
+		;;
+		work)
+		bash /home/kelaun/.screenlayout/Work.sh
+		feh --no-fehbg --bg-fill /mnt/multimedia/Pictures/wolf-laptop.jpg /mnt/multimedia/Pictures/wolf-work.jpg
+		killall conky lemonbar hide_lemonbar.sh
+                nohup /home/kelaun/Scripts/start_lemonbar.sh 2 &>/dev/null &
+                nohup /home/kelaun/Scripts/hide_lemonbar.sh 2 &>/dev/null &
+                nohup conky &>/dev/null &
+		;;
+		laura)
+		bash /home/kelaun/.screenlayout/Laura.sh
+		feh --no-fehbg --bg-fill /mnt/multimedia/Pictures/wolf-laptop.jpg
+		killall conky lemonbar hide_lemonbar.sh
+		nohup /home/kelaun/Scripts/start_lemonbar.sh 1 &>/dev/null &
+		nohup /home/kelaun/Scripts/hide_lemonbar.sh 1 &>/dev/null &
+		nohup conky &>/dev/null &
+		;;
+		*)
+		echo "Not a valid location"
+		;;
+	esac
+}
+
+###############
+# Main script #
+###############
+if [ $# -eq 0 ]; then
+	echo "How many screens do you have?"
+	read screen
+else
+	screen=$1
+fi
+screens $screen
+sleep 1
