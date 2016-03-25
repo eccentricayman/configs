@@ -13,9 +13,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
-Plugin 'fatih/vim-go'                     " https://github.com/fatih/vim-go
 Plugin 'majutsushi/tagbar'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'bling/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'sjl/gundo.vim'
@@ -28,10 +26,16 @@ Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'rkitover/vimpager'
 Plugin 'edkolev/tmuxline.vim'
-Plugin 'christoomey/vim-tmux-navigator' " Seemless navigation between VIM and Tmux
-Plugin 'keith/tmux.vim' " Add syntax highlighting for *tmux.conf files
+Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'keith/tmux.vim'
 Plugin 'lilydjwg/colorizer'
 Plugin 'vim-scripts/TeTrIs.vim'
+Plugin 'whatyouhide/vim-gotham'
+Plugin 'kristijanhusak/vim-hybrid-material'
+Plugin 'tomtom/tcomment_vim'
+Plugin 'vim-scripts/cSyntaxAfter'
+Plugin 'ervandew/supertab'
+Plugin 'Raimondi/delimitMate'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -44,7 +48,8 @@ set ls=2            	" allways show status line
 set hlsearch        	" highlight searches
 set incsearch       	" do incremental searching
 set ruler           	" show the cursor position all the time
-set visualbell t_vb=  " turn off error beep/flash
+set noeb vb t_vb=     "autostart and no bells, visual or beep
+au GUIEnter * set vb t_vb=
 set ignorecase        " ignore case while searching
 set number            " put numbers on side
 set ts=2							" set the tabs to two spaces
@@ -64,15 +69,30 @@ let base16colorspace=256
 set guioptions-=m  "remove menu bar
 set guioptions-=T  "remove toolbar
 set guioptions-=r  "remove right-hand scroll bar
-set guifont=Roboto\ Mono\ for\ Powerline\ Regular\ 11
+set guioptions-=L  "remove lefthand scrollbaru
+set guifont=Roboto\ Mono\ for\ Powerline\ 11
+if has("gui_running")
+  " GUI is running or is about to start.
+  " Set gVim to a decent size
+  set lines=33 columns=130
+endif
+inoremap jk <esc>
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+set wildmode=longest,list,full
+set wildmenu
+let delimitMate_expand_cr = 1
 
 " Color Themes
 " .....................................
-colorscheme base16-default
+colorscheme base16-google
+autocmd! FileType c,cpp,java,php call CSyntaxAfter()
 
 " GitGutter
 " .....................................
-let g:gitgutter_enabled = 1
+let g:gitgutter_enabled = 5
 let g:gitgutter_highlights = 1
 let g:gitgutter_override_sign_column_highlight = 0
 
@@ -110,18 +130,6 @@ if &term =~ '^screen'
     execute "set <xLeft>=\e[1;*D"
 endif
 
-" Go Settings
-" .....................................
-let g:go_highlight_functions = 1
-let g:go_highlight_methods = 1
-let g:go_highlight_structs = 1
-let g:go_highlight_operators = 1
-let g:go_highlight_build_constraints = 1
-au FileType go nmap <leader>r <Plug>(go-run)
-au FileType go nmap <leader>b <Plug>(go-build)
-au FileType go nmap <leader>t <Plug>(go-test)
-au FileType go nmap <leader>c <Plug>(go-coverage)
-
 " NERDTree
 " .....................................
 autocmd VimEnter * NERDTree " Auto-start nerdtree and move focus to main pane
@@ -131,6 +139,30 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 autocmd VimEnter * wincmd p " Open help window on the left
 autocmd FileType help wincmd L
 "let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""' " Make CtrlP faster by using Ag
+"autoquits nerdtree if last buffer
+function! NERDTreeQuit()
+  redir => buffersoutput
+  silent buffers
+  redir END
+"                     1BufNo  2Mods.     3File           4LineNo
+  let pattern = '^\s*\(\d\+\)\(.....\) "\(.*\)"\s\+line \(\d\+\)$'
+  let windowfound = 0
+
+  for bline in split(buffersoutput, "\n")
+    let m = matchlist(bline, pattern)
+
+    if (len(m) > 0)
+      if (m[2] =~ '..a..')
+        let windowfound = 1
+      endif
+    endif
+  endfor
+
+  if (!windowfound)
+    quitall
+  endif
+endfunction
+autocmd WinEnter * call NERDTreeQuit()
 
 " CSS Color Configuraiton
 " .....................................
@@ -156,10 +188,10 @@ set statusline+=%{fugitive#statusline()}
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-let g:syntastic_error_symbol = '✗'
-let g:syntastic_style_error_symbol = '✗'
-let g:syntastic_warning_symbol = '»'
-let g:syntastic_style_warning_symbol = '»'
+let g:syntastic_error_symbol = '✖'
+let g:syntastic_style_error_symbol = '✖'
+let g:syntastic_warning_symbol = '➜'
+let g:syntastic_style_warning_symbol = '➜'
 
 " Color Changes
 " .....................................

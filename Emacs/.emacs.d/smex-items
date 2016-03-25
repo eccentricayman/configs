@@ -2,12 +2,12 @@
 ;; ----- smex-history -----
 (
  load-theme
- load-file
- evil-mode
- powerline-default-theme
- eval-expression
- eval-buffer
  list-packages
+ ansi-term
+ conf-mode
+ eval-buffer
+ byte-recompile-directory
+ emacs-init-time
 )
 
 ;; ----- smex-data -----
@@ -17,9 +17,9 @@
  (checkdoc-eval-current-buffer . 1)
  (indent-rigidly . 1)
  (eldoc-mode . 1)
- (eval-buffer . 53)
+ (eval-buffer . 57)
  (ido-mode . 1)
- (list-packages . 9)
+ (list-packages . 11)
  (package-refresh-contents . 2)
  (customize-variable . 1)
  (toggle-frame-fullscreen . 1)
@@ -29,11 +29,11 @@
  (vc-pull . 1)
  (vc-register . 1)
  (server-start . 1)
- (ansi-term . 2)
+ (ansi-term . 7)
  (shell . 1)
  (eshell . 2)
  (org-mode . 2)
- (load-theme . 16)
+ (load-theme . 17)
  (byte-compile-file . 3)
  (profiler-start . 2)
  (profiler-report . 2)
@@ -63,7 +63,7 @@
  (eval-defun . 1)
  (set-background-color . 6)
  (butterfly . 1)
- (emacs-init-time . 6)
+ (emacs-init-time . 11)
  (benchmark . 2)
  (powerline-default-theme . 4)
  (menu-bar-showhide-tool-bar-menu-customize-disable . 1)
@@ -72,4 +72,10 @@
  (color-theme-approximate-on . 1)
  (color-theme-approximate-off . 2)
  (eval-expression . 1)
+ (query-replace-regexp . 3)
+ (apropos-command . 2)
+ (apropos . 1)
+ (byte-recompile-directory . 2)
+ (fireplace . 1)
+ (conf-mode . 1)
 )

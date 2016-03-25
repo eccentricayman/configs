@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Create a button to skip to the next track on the Raspberry Pi mpd server.
+
+# If I'm not connected to my home network, exit script.
+#MY_SSID=`iwgetid -r`
+#if ! [[ $MY_SSID == *"dilseacht"* ]]; then
+#        exit 0
+#fi
+
+MPC=$(mpc -h 192.168.0.106)
+# If the output doesn't contain "error:" or "volume:", get the state.
+if [[ ${MPC} =~ "error:" ]] || [[ ${MPC} =~ "volume:" ]]; then
+        STATE=$(echo -e "$MPC" | sed -n '2p' | cut -d "[" -f2 | cut -d "]" -f1)
+        # If a song is playing or paused, display a next track symbol.
+        if [[ "$STATE" == "playing" ]] || [[ "$STATE" == "paused" ]]; then
+                echo ""
+                echo ""
+                echo "#F2777A"
+                if [[ $BLOCK_BUTTON == '1' ]]; then
+                        mpc -h 192.168.0.106 next
+                fi
+        fi
+fi

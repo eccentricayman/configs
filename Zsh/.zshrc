@@ -17,13 +17,13 @@ fi
 
 #shows background + screenfetch
 #fetch
-    
+
 #invaders!
 #$HOME/Scripts/invaders.sh
 
 #pacman
 $HOME/Scripts/pacman.sh
-    
+
 #loads theme
 autoload -Uz promptinit
 promptinit
@@ -38,11 +38,14 @@ unsetopt CORRECT
 
 #better than cd ..
 upup(){ DEEP=$1; [ -z "${DEEP}" ] && { DEEP=1; }; for i in $(seq 1 ${DEEP}); do cd ../; done; }
-    
+
 alias emacss="emacsclient -c"
 alias thanksmrskeltal="lua $HOME/Scripts/dootdoot.lua"
 alias up="upup"
 alias cpd="pwd | xclip -selection clipboard"
+alias todo="todo.sh"
+alias packer="yaourt"
+alias thanaz="cowsay fuck off ; sleep 3 ; exit"
 
 #sets default terminal editor to vim
 export EDITOR=vim
