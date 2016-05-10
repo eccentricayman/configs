@@ -1,7 +1,10 @@
 alias ls='ls --color'
 alias ll='ls -al'
 
-~/.screenFetch/screenfetch
+#screenfetch
+#~/screenFetch/screenfetch-dev
+#invaders
+~/Scripts/invaders.sh
 
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
@@ -94,20 +97,9 @@ function parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
 
-batteryInfo() {
-    if [[ $showSysInfo == true ]]; then
-        data=$(acpi | grep -Eo "[0-9]*%|[0-9][0-9]:[0-9][0-9]:[0-9][0-9]")
-        perc=$(echo $data | grep -Eo "[0-9]*%")
-        batTime=$(echo $data | grep -Eo "[0-9][0-9]:[0-9][0-9]:[0-9][0-9]")
-        if [ "$batTime" == "" ]; then
-            batTime="Full"
-        fi
-        printf "$perc ($batTime)> " 2>/dev/null
-    fi
-}
-
 if [ "$color_prompt" = yes ]; then
-    PS1='[\[\e[00;33m\]\d\[\e[0m\]\[\e[00;36m\] \t\[\e[0m\]'' | \[\033[01;31m\]\w\[\033[00m\] \[\033[01;35m\]$git_branch\[\033[37m\]$git_dirty\[\033[00m\]] \[\e[01;36m\]\u\[\e[0m\] \[\e[0m\]\$ '
+    PS1=' \[\033[01;31m\]\w\[\033[00m\]\[\033[01;35m\] $git_branch\[\033[37m\]$git_dirty\[\033[00m\] \[\e[1;34m\]\u\[\e[0m\] \[\e[0m\]➜ '
+
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
@@ -121,8 +113,6 @@ xterm*|rxvt*)
 *)
     ;;
 esac
-
-
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
@@ -140,6 +130,9 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias emacss='emacsclient -c'
+alias subl='/home/students/2017/ayman.ahmed/subl/sublime_text'
+alias homah="ssh ayman.ahmed@149.89.150.100"
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -168,3 +161,22 @@ export PROMPT_DIRTRIM=2
 export GITAWAREPROMPT=~/.bash/git-aware-prompt
 source $GITAWAREPROMPT/main.sh
 export PATH=$PATH:$HOME/algs4/bin
+export VIM=$VIM:$HOME/vim/runtime
+
+# Base16 Shell
+BASE16_SHELL="$HOME/.config/base16-shell/base16-paraiso.dark.sh"
+[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
+
+INSTALL_PATH='$HOME/.local'
+
+export PATH=$INSTALL_PATH/bin:$PATH
+export LD_LIBRARY_PATH=$INSTALL_PATH/lib:$LD_LIBRARY_PATH
+export CFLAGS=-I$INSTALL_PATH/include
+export CPPFLAGS="-I$INSTALL_PATH/include" LDFLAGS="-L$INSTALL_PATH/lib"
+if ! shopt -oq posix; then
+  if [ -f /usr/share/bash-completion/bash_completion ]; then
+    . /usr/share/bash-completion/bash_completion
+  elif [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion
+  fi
+fi
