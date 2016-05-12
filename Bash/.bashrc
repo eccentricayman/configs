@@ -98,7 +98,7 @@ function parse_git_branch() {
 }
 
 if [ "$color_prompt" = yes ]; then
-    PS1=' \[\033[01;31m\]\w\[\033[00m\]\[\033[01;35m\] $git_branch\[\033[37m\]$git_dirty\[\033[00m\] \[\e[1;34m\]\u\[\e[0m\] \[\e[0m\]➜ '
+    PS1=' \[\033[01;31m\]\w\[\033[00m\]\[\033[01;35m\] $git_branch\[\033[37m\]$git_dirty\[\033[00m\] \[\e[1;34m\]\u\[\e[0m\] \[\e[0m\]\[\033[38;5;42m\]➜\[$(tput sgr0)\] '
 
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
@@ -133,6 +133,16 @@ alias l='ls -CF'
 alias emacss='emacsclient -c'
 alias subl='/home/students/2017/ayman.ahmed/subl/sublime_text'
 alias homah="ssh ayman.ahmed@149.89.150.100"
+alias penis='echo "
+      ___\n
+     //  7\n
+    (_,_/\\n
+     \    \\n
+      \    \\n
+      _\    \__\n
+     (   \     )\n
+      \___\___/\n
+"'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
