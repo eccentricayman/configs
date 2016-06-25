@@ -24,7 +24,7 @@
  '(custom-enabled-themes (quote (atom-one-dark)))
  '(custom-safe-themes
    (quote
-    ("06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "b869a1353d39ab81b19eb79de40ff3e7bb6eaad705e61f7e4dbdcb183f08c5a6" "0788bfa0a0d0471984de6d367bb2358c49b25e393344d2a531e779b6cec260c5" "51277c9add74612c7624a276e1ee3c7d89b2f38b1609eed6759965f9d4254369" "977513781c8dd86f4f0a04dbf518df5ba496da42b71173368b305478703eea42" "2a5be663818e1e23fd2175cc8dac8a2015dcde6b2e07536712451b14658bbf68" "8e7ca85479dab486e15e0119f2948ba7ffcaa0ef161b3facb8103fb06f93b428" "e8586a76a96fd322ccb644ca0c3a1e4f4ca071ccfdb0f19bef90c4040d5d3841" "beeb5ac6b65fcccfe434071d4624ff0308b5968bf2f0c01b567d212bcaf66054" "e87a2bd5abc8448f8676365692e908b709b93f2d3869c42a4371223aab7d9cf8" "705f3f6154b4e8fac069849507fd8b660ece013b64a0a31846624ca18d6cf5e1" "0c1103b91002bd7f301b7f58585b55469eddf26d9d46518893e1269617a9ec86" "5058d3e0a733f07a0e4baf515224925c3036e55bca952460e3e38a79b1890ed5" "919469423e232db3cc35f6a94134051dd8a5a95d5cbb2a9b3c519e371a069615" "4f5bb895d88b6fe6a983e63429f154b8d939b4a8c581956493783b2515e22d6d" "1db337246ebc9c083be0d728f8d20913a0f46edc0a00277746ba411c149d7fe5" "b47af5d58090932fbe1aa81683ff472a35b49b224c214173a86859dd8d6e4f0c" "1c7c3a5b599aa7e063dfb7bbbe602fea9ce020e9d12a761bea4f4734718f8825" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" "03e3e79fb2b344e41a7df897818b7969ca51a15a67dc0c30ebbdeb9ea2cd4492" "e8e744a1b0726814ac3ab86ad5ccdf658b9ff1c5a63c4dc23841007874044d4a" "01c5ebefcabc983c907ee30e429225337d0b4556cc1d21df0330d337275facbb" "e681c4fc684a543ce97c2d55082c6585182c0089f605dc9a5fe193870f03edc6" "f2503f0a035c2122984e90eb184185769ee665de5864edc19b339856942d2d2d" "b04425cc726711a6c91e8ebc20cf5a3927160681941e06bc7900a5a5bfe1a77f" "870a63a25a2756074e53e5ee28f3f890332ddc21f9e87d583c5387285e882099" "79a3f477ac0cb4a106f78b6109614e991564a5c2467c36e6e854d4bc1102e178" "790e74b900c074ac8f64fa0b610ad05bcfece9be44e8f5340d2d94c1e47538de" "76626efc044daee1c402e50f185bd633d1a688c332bc15c8fd5db4cdf2966b79" default)))
+    ("4f0f2f5ec60a4c6881ba36ffbfef31b2eea1c63aad9fe3a4a0e89452346de278" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "b869a1353d39ab81b19eb79de40ff3e7bb6eaad705e61f7e4dbdcb183f08c5a6" "0788bfa0a0d0471984de6d367bb2358c49b25e393344d2a531e779b6cec260c5" "51277c9add74612c7624a276e1ee3c7d89b2f38b1609eed6759965f9d4254369" "977513781c8dd86f4f0a04dbf518df5ba496da42b71173368b305478703eea42" "2a5be663818e1e23fd2175cc8dac8a2015dcde6b2e07536712451b14658bbf68" "8e7ca85479dab486e15e0119f2948ba7ffcaa0ef161b3facb8103fb06f93b428" "e8586a76a96fd322ccb644ca0c3a1e4f4ca071ccfdb0f19bef90c4040d5d3841" "beeb5ac6b65fcccfe434071d4624ff0308b5968bf2f0c01b567d212bcaf66054" "e87a2bd5abc8448f8676365692e908b709b93f2d3869c42a4371223aab7d9cf8" "705f3f6154b4e8fac069849507fd8b660ece013b64a0a31846624ca18d6cf5e1" "0c1103b91002bd7f301b7f58585b55469eddf26d9d46518893e1269617a9ec86" "5058d3e0a733f07a0e4baf515224925c3036e55bca952460e3e38a79b1890ed5" "919469423e232db3cc35f6a94134051dd8a5a95d5cbb2a9b3c519e371a069615" "4f5bb895d88b6fe6a983e63429f154b8d939b4a8c581956493783b2515e22d6d" "1db337246ebc9c083be0d728f8d20913a0f46edc0a00277746ba411c149d7fe5" "b47af5d58090932fbe1aa81683ff472a35b49b224c214173a86859dd8d6e4f0c" "1c7c3a5b599aa7e063dfb7bbbe602fea9ce020e9d12a761bea4f4734718f8825" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" "03e3e79fb2b344e41a7df897818b7969ca51a15a67dc0c30ebbdeb9ea2cd4492" "e8e744a1b0726814ac3ab86ad5ccdf658b9ff1c5a63c4dc23841007874044d4a" "01c5ebefcabc983c907ee30e429225337d0b4556cc1d21df0330d337275facbb" "e681c4fc684a543ce97c2d55082c6585182c0089f605dc9a5fe193870f03edc6" "f2503f0a035c2122984e90eb184185769ee665de5864edc19b339856942d2d2d" "b04425cc726711a6c91e8ebc20cf5a3927160681941e06bc7900a5a5bfe1a77f" "870a63a25a2756074e53e5ee28f3f890332ddc21f9e87d583c5387285e882099" "79a3f477ac0cb4a106f78b6109614e991564a5c2467c36e6e854d4bc1102e178" "790e74b900c074ac8f64fa0b610ad05bcfece9be44e8f5340d2d94c1e47538de" "76626efc044daee1c402e50f185bd633d1a688c332bc15c8fd5db4cdf2966b79" default)))
  '(fancy-splash-image "~/Pictures/emacs.png")
  '(fci-rule-color "#2e2e2e")
  '(org-startup-truncated t)
@@ -74,7 +74,7 @@
  '(default ((t (:family "Consolas" :foundry "microsoft" :slant normal :weight normal :height 113 :width normal)))))
 
 ;because ido-speed-hacks is terribly coded
-(setq warning-minimum-level :error)
+;(setq warning-minimum-level :error)
 ;; Preset width nlinum
 ;(add-hook 'nlinum-mode-hook
 ;          (lambda ()
@@ -271,6 +271,7 @@
 (require 'spaceline-config)
 
 ;;;;;;TEMP;;;;;;
+(powerline-default-theme)
 (spaceline-emacs-theme)
 ;;;;;;TEMP;;;;;;
 
@@ -296,3 +297,30 @@
 ;;;;;;;;;;FIX THIS;;;;;;;;;;;
 (setq redisplay-dont-pause t)
 ;)
+
+;processing
+(autoload 'processing-mode "processing-mode" "Processing mode" t)
+(add-to-list 'auto-mode-alist '("\\.pde$" . processing-mode))
+
+(setq processing-location "/home/eccentricayman/Github/processing-3.1.1/processing-java")
+(setq processing-application-dir "/home/eccentricayman/Github/processing-3.1.1/processing")
+(setq processing-sketchbook-dir "/home/eccentricayman/sketchbook")
+(global-set-key (kbd "C-c p") 'processing-sketch-run)
+
+(require 'f)
+
+;java sht
+(defun jcompile ()
+  "Runs java code with javac, only for simple shit"
+  (interactive)
+  (shell-command-on-region
+  ;seperate buffer
+   (point-min)
+   (point-max)
+   ;da command
+   (concat "javac " (buffer-file-name) " && " "java " (f-base buffer-file-name))
+   ;name of buffer
+   "Java Compilation"
+   ))
+
+(global-set-key (kbd "C-c j") 'jcompile)
