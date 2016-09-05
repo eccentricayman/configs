@@ -71,7 +71,7 @@ set guioptions-=m  "remove menu bar
 set guioptions-=T  "remove toolbar
 set guioptions-=r  "remove right-hand scroll bar
 set guioptions-=L  "remove lefthand scrollbaru
-set guifont=Roboto\ Mono\ for\ Powerline\ 11
+set guifont=Monaco\ for\ Powerline:h12
 if has("gui_running")
   " GUI is running or is about to start.
   " Set gVim to a decent size
@@ -88,7 +88,10 @@ let delimitMate_expand_cr = 1
 
 " Color Themes
 " .....................................
-colorscheme base16-google
+colorscheme base16-brewer
+if has('gui_running')
+   colorscheme base16-google-dark
+endif
 autocmd! FileType c,cpp,java,php call CSyntaxAfter()
 
 " GitGutter

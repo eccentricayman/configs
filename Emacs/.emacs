@@ -71,7 +71,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Consolas" :foundry "microsoft" :slant normal :weight normal :height 113 :width normal)))))
+ '(default ((t (:family "Monaco" :height 120)))))
 
 ;because ido-speed-hacks is terribly coded
 ;(setq warning-minimum-level :error)
@@ -307,20 +307,24 @@
 (setq processing-sketchbook-dir "/home/eccentricayman/sketchbook")
 (global-set-key (kbd "C-c p") 'processing-sketch-run)
 
-(require 'f)
 
-;java sht
-(defun jcompile ()
-  "Runs java code with javac, only for simple shit"
-  (interactive)
-  (shell-command-on-region
-  ;seperate buffer
-   (point-min)
-   (point-max)
-   ;da command
-   (concat "javac " (buffer-file-name) " && " "java " (f-base buffer-file-name))
-   ;name of buffer
-   "Java Compilation"
-   ))
+;java sht (only for windows and linux)
+;; (require 'f)
+;; (defun jcompile ()
+;;   "Runs java code with javac, only for simple shit"
+;;   (interactive)
+;;   (shell-command-on-region
+;;   ;seperate buffer
+;;    (point-min)
+;;    (point-max)
+;;    ;da command
+;;    (concat "javac " (buffer-file-name) " && " "java " (f-base buffer-file-name))
+;;    ;name of buffer
+;;    "Java Compilation"
+;;    ))
 
-(global-set-key (kbd "C-c j") 'jcompile)
+;; (global-set-key (kbd "C-c j") 'jcompile)
+
+;osx use command key as a control key
+(setq mac-command-modifier 'control)
+
