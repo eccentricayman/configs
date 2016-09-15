@@ -10,6 +10,7 @@ echo "installing stuffs..."
 brew install emacs --with-cocoa
 brew install vim
 brew install tmux
+brew install bash
 brew install zsh
 brew install iterm2
 brew install neofetch
@@ -20,6 +21,11 @@ echo "installing emacs stuff..."
 cp Emacs/.emacs ~
 cp -av Emacs/.emacs.d ~
 echo "Open emacs, then do: C-u-0 M-x byte-recompile-directory ~/.emacs.d"
+
+echo "installing bash stuf..."
+cp Bash/.bashrc ~
+mkdir ~/.bash
+git clone git://github.com/jimeh/git-aware-prompt.git ~/.bash/git-aware-prompt
 
 echo "installing monaco powerline..."
 git clone https://gist.github.com/1838072.git fontu
