@@ -72,7 +72,8 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Monaco" :height 120)))))
+ '(default ((t (:family "Monaco" :height 120))))
+ '(button ((t (:inherit default)))))
 
 ;because ido-speed-hacks is terribly coded
 ;(setq warning-minimum-level :error)
@@ -196,6 +197,8 @@
 ;(add-hook 'window-setup-hook 'on-after-init)
 (require 'neotree)
 (global-set-key (kbd "C-c f") 'neotree-toggle)
+;fix neotree link color
+(setq frame-background-mode 'dark)
 
 ;magit
 (global-set-key (kbd "C-c g") 'magit-status)
@@ -286,7 +289,7 @@
 ;might slowdown, but allows vim + emacs
 ;(require 'powerline)
 
-1;;;;;;TEMP;;;;;;
+;;;;;;TEMP;;;;;;
 ;(spaceline-emacs-theme)
 ;;;;;;TEMP;;;;;;
 
