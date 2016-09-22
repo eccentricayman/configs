@@ -2,11 +2,24 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/eccentricayman/Github/SoftDev/jinja-ninja/" . "templates/")
+ ("/Users/eccentricayman/Github/SoftDev/jinja1/" . "templates/")
+ ("/Users/eccentricayman/Github/SoftDev/flask-templatu/static/" . "styles/")
+ ("/Users/eccentricayman/Github/SoftDev/flask-templatu/" . "static/")
+ ("/Users/eccentricayman/Github/SoftDev/" . "jinja-ninja/")
+ ("/Users/eccentricayman/Github/flask-templatu/static/" . "styles/")
+ ("/Users/eccentricayman/Github/flask-templatu/" . "static/")
+ ("/Users/eccentricayman/Github/softdevtestu/" . "flasku/")
+ ("/Users/eccentricayman/Github/dotfiles/Linux/" . "Emacs/")
+ ("/Users/eccentricayman/Github/dotfiles/OSX/" . "Emacs/")
+ ("/Users/eccentricayman/Github/workshop/occupation/6/" . "Brian-Reo/")
+ ("/Users/eccentricayman/Github/workshop/occupation/" . "6/")
+ ("/Users/eccentricayman/Github/workshop/" . "occupation/")
  ("/Users/eccentricayman/.emacs.d/lisp/" . "ido-speed-hack/")
  ("/Users/eccentricayman/.emacs.d/" . "lisp/")
- ("/Users/eccentricayman/Github/dotfiles/" . "Scripts/")
- ("/Users/eccentricayman/Github/" . "StuySC.github.io/")
- ("/Users/eccentricayman/" . "Applications/")
+ ("/Users/eccentricayman/Github/dotfiles/" . "Linux/")
+ ("/Users/eccentricayman/Github/" . "SoftDev/")
+ ("/Users/eccentricayman/" . "Github/")
  ("/home/eccentricayman/Github/apcs/apcs2/" . "hw17/")
  ("/home/eccentricayman/Github/apcs/" . "apcs2/")
  ("/home/eccentricayman/Github/" . "apcs/")
@@ -31,16 +44,33 @@
  ("c:/Users/ayman_000/Documents/" . "GitHub/")
  ("/Users/ayman_000/AppData/" . "Roaming/")
  ("/Users/ayman_000/" . "AppData/")
- ("/Users/" . "ayman_000/")
+ ("/Users/" . "eccentricayman/")
  ("/" . "home/")
  ("c:/Users/ayman_000/" . "Documents/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/eccentricayman/Github/SoftDev/jinja-ninja/templates/"
+ "/Users/eccentricayman/Github/SoftDev/jinja-ninja/"
+ "/Users/eccentricayman/Github/Systems/c_hue/"
+ "/Users/eccentricayman/Github/SoftDev/jinja1/templates/"
+ "/Users/eccentricayman/Github/SoftDev/jinja1/"
  "/Users/eccentricayman/"
- "/Users/eccentricayman/Applications/"
+ "/Users/eccentricayman/Github/SoftDev/flask-templatu/"
+ "/Users/eccentricayman/Github/SoftDev/flask-templatu/static/styles/"
+ "/Users/eccentricayman/Github/flask-templatu/static/styles/"
+ "/Users/eccentricayman/Github/softdevtestu/flasku/"
+ "/Users/eccentricayman/.emacsbackups/"
+ "/Users/eccentricayman/Github/dotfiles/OSX/Emacs/"
+ "/Users/eccentricayman/Github/systemztestin/arrz/"
+ "/Users/eccentricayman/Github/projecteulerc/"
+ "/Users/eccentricayman/Github/apcs/apcs2/"
+ "/Users/eccentricayman/Github/randomshit/"
+ "/Users/eccentricayman/.tmux/"
  "/Users/eccentricayman/Github/"
+ "/Users/eccentricayman/Github/aymanandnick/"
+ "/Users/eccentricayman/Applications/"
  "/Users/eccentricayman/Github/randomizah/"
  "/Users/eccentricayman/.emacs.d/lisp/ido-speed-hack/"
  "/Users/eccentricayman/Github/StuySC.github.io/"
@@ -74,21 +104,95 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "occupations.html"
+ "occu-table.py"
+ "Driver.java"
+ "main.html"
+ "hello.py"
  ".emacs"
- ".localized"
- "ayy.java"
- "randomizer.py"
- "ido-speed-hack.el"
- "car.py"
- "car.java"
- "hello.c"
- "hello.java"
- "1.java"
+ "Deez_Nuts"
+ "templatu.py"
+ "mainpage.css"
+ "!Users!eccentricayman!.emacs~"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/eccentricayman/" (22489 58317 0 0) "Scripts/" "Public/" "Pictures/" "Music/" "Movies/" "Library/" "Github/" "Downloads/" "Documents/" "Desktop/" "Applications/" ".zshrc" ".zshenv" ".zprofile" ".zpreztorc" ".zprezto/" ".zlogout" ".zlogin" ".zhistory" ".zcompdump.zwc" ".zcompdump" ".zcompcache/" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".tmux.conf.local" ".tmux.conf" ".tmux/" ".subversion/" ".ssh/" ".oracle_jre_usage/" ".no-asepsis-os-restrictiontouch" ".no-asepsis-os-restriction" ".lesshst" ".gitconfig" ".emacsbackups/" ".emacs.d/" ".emacs" ".config/" ".cache/" ".bash_sessions/" ".bash_history" ".asepsis-suppress-update-errors" "../" "./")
+ ("/Users/eccentricayman/Github/SoftDev/jinja-ninja/templates/" (22500 21219 0 0) "occupations.html" "../" "./")
+
+ ("/Users/eccentricayman/Github/SoftDev/jinja-ninja/" (22500 21414 0 0) "templates/" "README.md" "occupations.csv" "occu-table.py" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/eccentricayman/Github/SoftDev/jinja1/templates/" (22500 1991 0 0) "main.html" "../" "./")
+
+ ("/Users/eccentricayman/Github/SoftDev/jinja1/" (22498 46704 0 0) "templates/" "hello.py" "../" "./")
+
+ ("/Users/eccentricayman/Github/SoftDev/" (22500 12757 0 0) "jinja1/" "jinja-ninja/" "flask1/" "flask-templatu/" "../" "./")
+
+ ("/Users/eccentricayman/Github/" (22499 64215 0 0) "workshop/" "Systems/" "StuyvesantSU.github.io/" "StuySC.github.io/" "SoftDev/" "randomshit/" "projecteulerc/" "LibraryScanner/" "facialRecog/" "eccentricayman.github.io/" "dotfiles/" "base16-shell/" "apcs/" "../" "./")
+
+ ("/Users/eccentricayman/Github/Systems/" (22500 10705 0 0) "c_hue/" "arrz/" "../" "./")
+
+ ("/Users/eccentricayman/" (22500 13577 0 0) "Scripts/" "Public/" "Pictures/" "Music/" "Movies/" "Library/" "Github/" "Downloads/" "Documents/" "Desktop/" "Applications/" ".zshrc" ".zshenv" ".zprofile" ".zpreztorc" ".zprezto/" ".zlogout" ".zlogin" ".zhistory" ".zcompdump.zwc" ".zcompdump" ".zcompcache/" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".tmux.conf.local" ".tmux.conf" ".tmux/" ".subversion/" ".ssh/" ".sh_history" ".oracle_jre_usage/" ".no-asepsis-os-restrictiontouch" ".no-asepsis-os-restriction" ".lesshst" ".gitignore" ".gitconfig" ".emacsbackups/" ".emacs.d/" ".emacs" ".config/" ".cache/" ".bashrc" ".bash_sessions/" ".bash_history" ".bash/" ".asepsis-suppress-update-errors" "../" "./")
+
+ ("/Users/eccentricayman/Github/Systems/c_hue/" (22500 13693 0 0) "simple.c" "a.out" "../" "./")
+
+ ("/Users/eccentricayman/Github/SoftDev/flask-templatu/static/styles/" (22498 44734 0 0) "mainpage.css" "../" "./")
+
+ ("/Users/eccentricayman/Github/SoftDev/flask-templatu/" (22498 44744 0 0) "venv/" "templatu.py" "static/" "README.md" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/eccentricayman/Github/SoftDev/flask-templatu/static/" (22498 3962 0 0) "styles/" "../" "./")
+
+ ("/Users/eccentricayman/Github/flask-templatu/static/styles/" (22498 3676 0 0) "mainpage.css" "../" "./")
+
+ ("/Users/eccentricayman/Github/flask-templatu/" (22498 3630 0 0) "venv/" "templatu.py" "static/" "README.md" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/eccentricayman/Github/flask-templatu/static/" (22498 3344 0 0) "styles/" "../" "./")
+
+ ("/Users/eccentricayman/Github/softdevtestu/flasku/" (22497 45202 0 0) "venv/" "hello.py" "../" "./")
+
+ ("/Users/eccentricayman/Github/softdevtestu/" (22497 34931 0 0) "flasku/" "../" "./")
+
+ ("/Users/eccentricayman/Github/projecteulerc/" (22497 44764 0 0) "README.md" "a.out" "3.c" "2.c" "1.c" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/eccentricayman/.emacsbackups/" (22497 44115 0 0) "!Users!eccentricayman!Scripts!itermborder.sh~" "!Users!eccentricayman!hello.java~" "!Users!eccentricayman!hello.c~" "!Users!eccentricayman!Github!systemztestin!arrz!harambe.c~" "!Users!eccentricayman!Github!SoftwarDevelopmentu!randomizer.py~" "!Users!eccentricayman!Github!randomshit!2.c~" "!Users!eccentricayman!Github!randomshit!1.c~" "!Users!eccentricayman!Github!randomizer.py~" "!Users!eccentricayman!Github!projecteulerc!3.c~" "!Users!eccentricayman!Github!profile-dotemacs.el~" "!Users!eccentricayman!Github!hello.c~" "!Users!eccentricayman!Github!greet.java~" "!Users!eccentricayman!Github!flasku!hello.py~" "!Users!eccentricayman!Github!flask-templatu!templatu.py~" "!Users!eccentricayman!Github!dotfiles!OSX!install.sh~" "!Users!eccentricayman!Github!ayy.java~" "!Users!eccentricayman!Github!aymanandnick!.git!COMMIT_EDITMSG~" "!Users!eccentricayman!Github!arrayz!arr.c~" "!Users!eccentricayman!Empty Trash~" "!Users!eccentricayman!Downloads!Greet.java~" "!Users!eccentricayman!car.java~" "!Users!eccentricayman!Applications!Lock~" "!Users!eccentricayman!Applications!Lock.sh~" "!Users!eccentricayman!.tmux.conf.local~" "!Users!eccentricayman!.emacs~" "!Users!eccentricayman!.emacs.d!lisp!f!f.el~" "!Users!eccentricayman!.emacs.d!ido.last~" "!Users!eccentricayman!.emacs.d!elpa!zenburn-theme-20160914.135!zenburn-theme-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!yasnippet-20160801.1142!yasnippet-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!with-editor-20160828.1025!with-editor-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!use-package-20160815.1137!use-package-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!tablist-20160424.235!tablist-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!sublimity-20160822.1856!sublimity-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!spaceline-20160914.711!spaceline-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!seq-1.11!seq-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!s-20160711.525!s-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!rich-minority-20160725.1255!rich-minority-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!rainbow-delimiters-20160430.2358!rainbow-delimiters-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!python-environment-20150310.153!python-environment-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!powerline-20160702.1931!powerline-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!popup-20160709.729!popup-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!pkg-info-20150517.443!pkg-info-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!neotree-20160910.1959!neotree-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!magit-popup-20160821.1338!magit-popup-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!magit-20160907.945!magit-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!jedi-core-20160709.722!jedi-core-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!irony-20160912.904!irony-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!ido-vertical-mode-20160429.1037!ido-vertical-mode-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!git-commit-20160821.1338!git-commit-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!flycheck-pyflakes-20140630.1521!flycheck-pyflakes-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!flycheck-irony-20160317.1536!flycheck-irony-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!flycheck-20160915.515!flycheck-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!evil-20160827.1510!evil-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!epl-20150517.433!epl-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!epc-20140609.2234!epc-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!eclim-20160901.16!eclim-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!deferred-20160109.2046!deferred-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!dash-20160820.501!dash-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!ctable-20140304.1659!ctable-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!concurrent-20160109.2046!concurrent-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!company-jedi-20151216.1921!company-jedi-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!company-irony-c-headers-20151018.209!company-irony-c-headers-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!company-irony-20160826.56!company-irony-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!company-emacs-eclim-20160813.1754!company-emacs-eclim-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!company-20160829.1206!company-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!color-theme-sanityinc-tomorrow-20160829.2324!color-theme-sanityinc-tomorrow-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!bind-key-20160227.48!bind-key-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!base16-theme-20160914.1130!base16-theme-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!auto-complete-20160827.649!auto-complete-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!atom-one-dark-theme-20160914.1337!atom-one-dark-theme-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!async-20160711.2235!async-autoloads.el~" "!Users!eccentricayman!.emacs.d!elpa!airline-themes-20160907.922!airline-themes-autoloads.el~" "!Users!eccentricayman!.config!ranger!rc.conf~" "!Users!eccentricayman!.bashrc~" "!Applications!Lock~" "!Applications!Empty Trash~" "../" "./")
+
+ ("/Users/eccentricayman/Github/dotfiles/Linux/Emacs/" (22477 49552 0 0) "README.md" "emacs.png" ".emacs.d/" ".emacs" "../" "./")
+
+ ("/Users/eccentricayman/Github/dotfiles/Linux/" (22489 60196 0 0) "Zsh/" "Vim/" "Tmux/" "Sublime_Text_3/" "Scripts/" "install.sh" "i3/" "Fonts/" "Emacs/" "Cava/" "Bash/" "Arch/" "../" "./")
+
+ ("/Users/eccentricayman/Github/dotfiles/OSX/Emacs/" (22497 44125 0 0) ".emacs.d/" ".emacs" "../" "./")
+
+ ("/Users/eccentricayman/Github/dotfiles/OSX/" (22490 4893 0 0) "Zsh/" "Vim/" "Tmux/" "install.sh" "Emacs/" "Bash/" "../" "./")
+
+ ("/Users/eccentricayman/Github/systemztestin/arrz/" (22497 36394 0 0) "harambe.c" "a.out" "../" "./")
+
+ ("/Users/eccentricayman/Github/apcs/apcs2/" (22497 21410 0 0) "UsefulCode/" "hw44/" "hw39/" "hw38/" "hw37/" "hw36/" "hw35/" "hw34/" "hw31/" "hw27/" "hw26/" "hw25/" "hw24/" "hw23/" "hw22/" "hw21/" "hw20/" "hw19/" "hw18/" "hw17/" "hw16/" "hw15/" "hw14b/" "hw14a/" "hw13/" "hw12b/" "hw12a/" "hw11/" "hw10/" "hw09/" "hw08/" "hw07/" "hw06/" "hw05/" "hw04/" "hw03/" "hw02/" "hw01/" "heading.txt" "heading.java" "heading.class" "../" "./")
+
+ ("/Users/eccentricayman/Github/arrayz/" (22496 41399 0 0) "arr.c" "a.out" "../" "./")
+
+ ("/Users/eccentricayman/Github/workshop/occupation/6/Brian-Reo/" (22491 20876 0 0) "../" "./")
+
+ ("/Users/eccentricayman/Github/workshop/occupation/6/Yvonne-Wilson/" (22491 20876 0 0) "../" "./")
+
+ ("/Users/eccentricayman/Github/workshop/occupation/6/" (22491 20876 0 0) "Ziyan-Daniel/" "Yvonne-Wilson/" "Yikai-Farhan/" "README.md" "Patrick_Lindsey/" "kli-hlum/" "Kevin-Nala/" "Emma-Shaeq-Jason/" "Elias_Nobel/" "Celine-Amy/" "Brian-Reo/" "../" "./")
+
+ ("/Users/eccentricayman/Github/workshop/occupation/" (22491 20876 0 0) "occupations.csv" "MaxBertfield_WillOstlund/" "9/" "8/" "6/" "../" "./")
+
+ ("/Users/eccentricayman/Github/workshop/" (22491 20876 0 0) "README.md" "randomizer/" "occupation/" ".gitmodules" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/eccentricayman/Github/randomshit/" (22492 22682 0 0) "a.out" "2.c" "1.c" "../" "./")
+
+ ("/Users/eccentricayman/.tmux/" (22492 45226 0 0) "README.md" ".tmux.conf.local" ".tmux.conf" ".git/" "../" "./")
+
+ ("/Users/eccentricayman/Github/eccentricayman.github.io/" (22492 7511 0 0) "resume.pdf" "README.md" "min/" "js/" "index.html" "img/" "fonts/" "font-awesome/" "font/" "css/" ".git/" "../" "./")
+
+ ("/Users/eccentricayman/Github/aymanandnick/" (22492 17681 0 0) "README.md" "occupations.py" "occupations.csv" ".git/" "../" "./")
+
+ ("/Users/eccentricayman/Github/randomizah/" (22489 31360 0 0) "README.md" "randomizer.py" ".git/" "../" "./")
+
+ ("/Users/eccentricayman/Github/dotfiles/" (22489 60196 0 0) "Windows/" "README.md" "OSX/" "Linux/" ".git/" "../" "./")
+
+ ("/Users/eccentricayman/Github/SoftwarDevelopmentu/" (22490 2255 0 0) "README.md" ".git/" "#README.md#" "../" "./")
 
  ("/Users/eccentricayman/.emacs.d/" (22489 56508 0 0) "url/" "type-break" "tramp" "smex-items" "SessionDesktop.el" "recentf" "profile-dotemacs.elc" "profile-dotemacs.el" "lisp/" "ido.last" "eshell/" "elpa/" "auto-save-list/" "ac-comphist.dat" ".tutor/" "../" "./")
 
@@ -100,17 +204,11 @@
 
  ("/Users/eccentricayman/.emacs.d/lisp/f/" (22489 56168 0 0) "f.elc" "f.el" "../" "./")
 
- ("/Users/eccentricayman/Github/" (22489 55359 0 0) "workshop/" "StuyvesantSU.github.io/" "StuySC.github.io/" "SoftwarDevelopmentu/" "randomizah/" "notes-and-code/" "eccentricayman.github.io/" "dotfiles/" "base16-shell/" "ayy.java" "../" "./")
-
- ("/Users/eccentricayman/Github/randomizah/" (22489 31251 0 0) "README.md" "randomizer.py" ".git/" "../" "./")
-
  ("/Users/eccentricayman/.emacs.d/lisp/ido-speed-hack/" (22477 49137 0 0) "ido-speed-hack.elc" "ido-speed-hack.el" "../" "./")
 
  ("/Users/eccentricayman/Github/StuySC.github.io/" (22478 6482 0 0) "theteam.html" "theteam-operations.html" "theteam-homeroomrep.html" "theteam-advisory.html" "suggestions.html" "index.html" "images/" "generic.html" "elements.html" "contactus.html" "CNAME" "careers.html" "calendar.html" "assets/" "academics.html" "academics-study-guides.html" "academics-resources.html" "3060800463bd.html" ".git/" "../" "./")
 
  ("/Users/eccentricayman/Github/dotfiles/Scripts/" (22477 48130 0 0) "weather.sh" "undertale.sh" "tvs.sh" "titlebars.sh" "sysinfo" "start_lemonbar.sh" "skulls.sh" "screenshotclean.sh" "screens" "rupees.sh" "pokemon.sh" "pipes.sh" "pacman.sh" "lock.sh" "lemonbar.sh" "invaders.sh" "hide_lemonbar.sh" "fortune-i3lock/" "emacsprofile.sh" "dootdoot.lua" "candy.sh" "antigen.zsh" "../" "./")
-
- ("/Users/eccentricayman/Github/dotfiles/" (22477 48130 0 0) "Zsh/" "Vim/" "Tmux/" "Sublime_Text_3/" "Scripts/" "README.md" "Rainmeter/" "Powershell/" "install.sh" "i3/" "Fonts/" "Emacs/" "Cava/" "Bash/" "Arch/" ".git/" "../" "./")
 
  ("/home/eccentricayman/Github/apcs/apcs2/hw17/" (22257 25720 337263 1000) "ItrWork.class" "./" "ItrWork.java" "../")
 
@@ -219,16 +317,6 @@
  ("c:/Users/ayman_000/Documents/GitHub/contests/usaco_jan/b1/" (22172 42985 0 0) "promote.out" "promote.java" "promote.in" "promote.class" "../" "./")
 
  ("c:/Users/ayman_000/Documents/GitHub/contests/usaco_jan/" (22172 31596 0 0) "b3/" "b2/" "b1/" "../" "./")
-
- ("c:/Users/ayman_000/Documents/GitHub/contests/" (22172 31575 0 0) "usaco_jan/" "usaco_dec/" "adventofcode2k15/" "../" "./")
-
- ("/Users/ayman_000/AppData/" (21156 58998 0 0) "Roaming/" "LocalLow/" "Local/" "../" "./")
-
- ("/Users/ayman_000/" (22172 1014 0 0) "Videos/" "Tracing/" "Templates/" "Start Menu/" "SkyDrive/" "SendTo/" "Searches/" "Saved Games/" "recycle.bat" "Recent/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.pol" "ntuser.ini" "NTUSER.DAT{9f037fb3-2982-11e3-93f1-b8ca3aee0e44}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{9f037fb3-2982-11e3-93f1-b8ca3aee0e44}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{9f037fb3-2982-11e3-93f1-b8ca3aee0e44}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "IdeaProjects/" "Favorites/" "emacs.png" "emacs-default.png" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Creative Cloud Files/" "Cookies/" "Contacts/" "cmder/" "Application Data/" "AppData/" "AndroidStudioProjects/" ".weblaf/" ".ssh/" ".jampal/" ".idlerc/" ".IdeaIC14/" ".gradle/" ".emacs.d/" ".AndroidStudio1.4/" ".android/" "../" "./")
-
- ("c:/Users/ayman_000/AppData/" (21156 58998 0 0) "Roaming/" "LocalLow/" "Local/" "../" "./")
-
- ("c:/Users/ayman_000/Documents/" (22171 61273 0 0) "~WRL3570.tmp" "~WRL0003.tmp" "~$use_Water_Leak_DEP_Letter.docx" "~$od Journal.docx" "~$man Ahmed's Transcription for English.docx" "~$man Ahmed's Lab #4 PreLab.docx" "~$man Ahmed's Lab #1 Grasshopper Dissection.docx" "~$man Ahmed's La Comida Mexicana.docx" "~$man Ahmed's H.W #4.docx" "~$man Ahmed's Chapter 7 Project.docx" "~$GOutlineNIDDM.docx" "~$glish I-search dRaft.docx" "~$CSTLB.docx" "~$anscription.docx" "~$abetesType2HGIntro.docx" "YUS FIBONACCI.rkt" "Youcam/" "WindowsPowerShell/" "Vamos a Venezuela.docx" "TrigReviewEC.docx" "Transcription.docx" "Transcription (Autosaved).docx" "timesheet (1).xlsm" "The scene in which Vronsky races with the horse casts a deep foreshadowing of how Vronsky.docx" "testdata.csv" "StuyLibrary/" "Stuy Wi-Fi SSID and Password.pptx" "sterr_writeupfinal.docx" "stern_termproject.docx" "SpotifyWebRecorder/" "SPANISH.odt" "SimplePickAndMove.nlogo" "Scan_20150922.pdf" "Scanned Documents/" "Rider to the Lease.docx" "Razer/" "Rainmeter/" "Quantum_Conspiracy.docx" "Processing/" "Popcorn Time.lnk" "PLANTS PHOTOSYNTHESIS LAZY SISTER.docx" "output-server.log" "output-client.log" "options.txt" "OpenDownloadForm.pdf" "Notepad++/" "Non Insulin-Dependent Diabetes Mellitus_PDFVERSION.pdf" "Nexus Mod Manager/" "NEW GUNS GERMS STEEL ACUTAL ASSIGNMENT PREVIOUS WAS A FAIL.docx" "MyTiData/" "My Videos/" "My Pictures/" "My Music/" "My games/" "Music Appreciation Study Guide.doc" "MumbleAutomaticCertificateBackup.p12" "Modding/" "Minutes_3-11.docx" "Minutes.docx" "Minutes for January 14th.docx" "madlibs2.py" "LOLReplay/" "launcher_profiles.json" "hw53_day9review.rkt" "hw49.py" "hw46.py" "hw32_recursethroughnumerals.rkt" "hw31_remainingfunctions.rkt" "hw30_sublistsreprise.rkt" "hw29_sublists-equality.rkt" "hw29.py" "hw28_axElement.rkt" "hw27_reversefactorialfib.rkt" "hw26_listsotherends.rkt" "hw24_sumoflist.rkt" "hw23_owntest2.rkt" "hw19_listandappend.rkt" "hw18_harderlistanalysis.rkt" "hw17_listanalysis.rkt" "hw15_ownTest1.rkt" "hw13_cond.rkt" "hw13_booleanoperators.rkt" "hw12_simpleifs.rkt" "hw11_moduloandquotient.rkt" "hudsonguildfinalapplication2015.pdf" "hp.system.package.metadata/" "hp.applications.package.appdata/" "House_Water_Leak_DEP_Letter.docx" "healtharticle2.docx" "H2GOutlineNIDDM.docx" "Guns.docx" "GitHub/" "Food Journal.docx" "FINALPAPERGENETICSNIDDMFINALLY.docx" "Final Project!!!/" "Figure.docx" "Fax/" "fang_healtharticle2.docx" "fang_healtharticle1.docx" "fang_foodlabels.docx" "fang_finalproject.docx" "FAIMIRUHISTORIAPROJECTU.docx" "EnglishMnMattractingmates.docx" "English I-search dRaft.docx" "echoGet.py" "EasyBCD Backup (2015-03-21).bcd" "Downloads/" "Doc1.docx" "DiabetesType2HGIntro.docx" "desktop.ini" "depressionposter.pptx" "DDAYGeneticsEssay.docx" "Custom Office Templates/" "CSTLB.docx" "Criterion Games/" "Computer Architecture Terms.docx" "CompSciGrading.rkt" "CandideinStuy.docx" "build-StuyLibrary-Desktop_Qt_5_5_1_MinGW_32bit-Debug/" "Battlefield 3/" "bard4.odt" "Ayman Ahmed's Waxman Global Study Guide for Finals.doc" "Ayman Ahmed's Transcription for English.docx" "Ayman Ahmed's The Complete Odyssey-essey.docx" "Ayman Ahmed's Tarea #5.docx" "Ayman Ahmed's Tarea #13.docx" "Ayman Ahmed's Student.docx" "Ayman Ahmed's Pro Case (January 2013).docx" "Ayman Ahmed's Photosynthesis Extra Credit.docx" "Ayman Ahmed's Music Appreciation Listening List.docx" "Ayman Ahmed's Monologue Project Reflection.docx" "Ayman Ahmed's Minutes for March 14th.docx" "Ayman Ahmed's Lab #4 PreLab.docx" "Ayman Ahmed's Lab #11.docx" "Ayman Ahmed's Lab #1 Grasshopper Dissection.docx" "Ayman Ahmed's H.W #4.docx" "Ayman Ahmed's Grasshopper Lab.docx" "Ayman Ahmed's Genetics Extra Credit.docx" "Ayman Ahmed's Frog Dissection PreLab.docx" "Ayman Ahmed's Excretory System H.W.docx" "Ayman Ahmed's Ever Cringe-Worthy Recursion Rhymes.odt" "Ayman Ahmed's Ever Cringe-Worthy Recursion Rhymes.docx" "Ayman Ahmed's Endocrine Disruptors.docx" "Ayman Ahmed's Chapter 7.2 Project.docx" "Ayman Ahmed's Chapter 7 Project.docx" "Ayman Ahmed's Chapter 7 Project Presentation.pptx" "Ayman Ahmed's Chapter 33 Outline.docx" "Ayman Ahmed's Assignment #6.docx" "Ayman Ahmed's Art Portfolio.docx" "Ayman Ahmed's Alstroemeria Collage.pptx" "Ayman Ahmed's  Osteoporosis.docx" "Art Autobiography.docx" "aofnaosinsoifnseoifnweofiwenfoiwnfoiwnwoeifew.rkt" "aofnaosinsoifnseoifnweofiwenfoiwnfoiwnwoeifew.bak" "anna_karenina_thesis_essay_1.docx" "Animania.docx" "Amnesia/" "America is commonly referred to as a giant melting pot of different people and cultures.docx" "ambia_videogamestory.docx" "ambia_routine.docx" "3rd nytimes article.docx" "3rd nytimes article HAHA LIAR U DIDNT EVEN START MY FIRST ONE.docx" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
