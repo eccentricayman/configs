@@ -436,3 +436,19 @@
 
 (global-set-key (kbd "C-c c") 'c-compile-and-run) 
 
+;osx stuff
+(defun copy-from-osx ()
+  (shell-command-to-string "pbpaste"))
+
+(defun paste-to-osx (text &optional push)
+  (let ((process-connection-type nil))
+    (let ((proc (start-process "pbcopy" "*Messages*" "pbcopy")))
+      (process-send-string proc text)
+      (process-send-eof proc))))
+
+(if (eq system-type 'darwin)
+    (progn
+      (setq interprogram-cut-function 'paste-to-osx)
+      (setq interprogram-paste-function 'copy-from-osx))
+  )
+;
