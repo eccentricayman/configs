@@ -1,12 +1,15 @@
-#Empty Trash
+#OSXTweaks
+Random Tweaks for OSX
+
+##Empty Trash
 Location: /Applications
 Empties trash, can be run from Spotlight
 
-#Lock
+##Lock
 Location: /Applications
 Turns on screensaver and locks screen.
 
-#Notify
+##Notify
 Location: /usr/local/bin
 Usage: $ notify $time $message
 ex.
