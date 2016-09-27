@@ -1,0 +1,3 @@
+#!/bin/sh
+/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine && kill -9 $(ps -p $(ps -p $PPID -o ppid=) -o ppid=) 
+
