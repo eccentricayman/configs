@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/eccentricayman/Github/Systems/" . "strings2/")
  ("/Users/eccentricayman/Github/SoftDev/jinja-ninja/" . "templates/")
  ("/Users/eccentricayman/Github/SoftDev/jinja1/" . "templates/")
  ("/Users/eccentricayman/Github/SoftDev/flask-templatu/static/" . "styles/")
@@ -18,7 +19,7 @@
  ("/Users/eccentricayman/.emacs.d/lisp/" . "ido-speed-hack/")
  ("/Users/eccentricayman/.emacs.d/" . "lisp/")
  ("/Users/eccentricayman/Github/dotfiles/" . "Linux/")
- ("/Users/eccentricayman/Github/" . "SoftDev/")
+ ("/Users/eccentricayman/Github/" . "Systems/")
  ("/Users/eccentricayman/" . "Github/")
  ("/home/eccentricayman/Github/apcs/apcs2/" . "hw17/")
  ("/home/eccentricayman/Github/apcs/" . "apcs2/")
@@ -51,12 +52,14 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/Users/eccentricayman/Github/SoftDev/jinja-ninja/templates/"
+ "/Users/eccentricayman/"
+ "/Users/eccentricayman/Github/Systems/strings2/"
  "/Users/eccentricayman/Github/SoftDev/jinja-ninja/"
+ "/Users/eccentricayman/Scripts/"
+ "/Users/eccentricayman/Github/SoftDev/jinja-ninja/templates/"
  "/Users/eccentricayman/Github/Systems/c_hue/"
  "/Users/eccentricayman/Github/SoftDev/jinja1/templates/"
  "/Users/eccentricayman/Github/SoftDev/jinja1/"
- "/Users/eccentricayman/"
  "/Users/eccentricayman/Github/SoftDev/flask-templatu/"
  "/Users/eccentricayman/Github/SoftDev/flask-templatu/static/styles/"
  "/Users/eccentricayman/Github/flask-templatu/static/styles/"
@@ -99,40 +102,43 @@
  "c:/Users/ayman_000/AppData/Roaming/.emacs.d/lisp/ido-speed-hack/"
  "c:/Users/ayman_000/Documents/GitHub/contests/usaco_jan/b1/"
  "c:/Users/ayman_000/Documents/GitHub/contests/usaco_jan/b2/"
- "/Users/ayman_000/AppData/Roaming/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "occupations.html"
+ ".emacs"
+ "slen.c"
  "occu-table.py"
+ "schedule.py"
+ "occupations.html"
+ "occupations.csv"
+ "greet.java"
  "Driver.java"
  "main.html"
  "hello.py"
- ".emacs"
- "Deez_Nuts"
- "templatu.py"
- "mainpage.css"
- "!Users!eccentricayman!.emacs~"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/eccentricayman/Github/SoftDev/jinja-ninja/templates/" (22500 21219 0 0) "occupations.html" "../" "./")
+ ("/Users/eccentricayman/" (22506 39752 0 0) "Scripts/" "Public/" "Pictures/" "Music/" "Movies/" "Library/" "Github/" "Downloads/" "Documents/" "Desktop/" "Applications/" ".zshrc" ".zshenv" ".zprofile" ".zpreztorc" ".zprezto/" ".zlogout" ".zlogin" ".zhistory" ".zcompdump.zwc" ".zcompdump" ".zcompcache/" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".tmux.conf.local" ".tmux.conf" ".tmux/" ".subversion/" ".ssh/" ".sh_history" ".oracle_jre_usage/" ".no-asepsis-os-restrictiontouch" ".no-asepsis-os-restriction" ".ncmpcpp/" ".lyrics/" ".lesshst" ".gitignore" ".gitconfig" ".esd_auth" ".emacsbackups/" ".emacs.d/" ".emacs" ".config/" ".cache/" ".bashrc" ".bash_sessions/" ".bash_history" ".bash/" ".asepsis-suppress-update-errors" "../" "./")
 
- ("/Users/eccentricayman/Github/SoftDev/jinja-ninja/" (22500 21414 0 0) "templates/" "README.md" "occupations.csv" "occu-table.py" ".gitignore" ".git/" "../" "./")
+ ("/Users/eccentricayman/Github/Systems/strings2/" (22505 30528 0 0) "strchr.c" "slen.c" "../" "./")
+
+ ("/Users/eccentricayman/Github/Systems/" (22505 28471 0 0) "strings2/" "strings1/" "projecteulerc/" "c_hue/" "arrz/" "../" "./")
+
+ ("/Users/eccentricayman/Scripts/" (22505 17511 0 0) "weather.sh" "undertale.sh" "tvs.sh" "titlebars.sh" "timer.sh" "sysinfo" "start_lemonbar.sh" "skulls.sh" "screenshotclean.sh" "screens" "schedule.sh" "rupees.sh" "pokemon.sh" "pipes.sh" "pacman.sh" "lock.sh" "lemonbar.sh" "itermborder.sh" "invaders.sh" "hide_lemonbar.sh" "fortune-i3lock/" "emacsprofile.sh" "dootdoot.lua" "candy.sh" "antigen.zsh" "../" "./")
+
+ ("/Users/eccentricayman/Github/SoftDev/jinja-ninja/templates/" (22504 28060 0 0) "occupations.html" "../" "./")
+
+ ("/Users/eccentricayman/Github/SoftDev/jinja-ninja/" (22504 27580 0 0) "templates/" "README.md" "occupations.csv" "occu-table.py" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/eccentricayman/Github/" (22503 25550 0 0) "Systems/" "Stuff/" "SoftDev/" "eccentricayman.github.io/" "dotfiles/" "cli-visualizer-master/" "base16-shell/" "APCS/" "../" "./")
+
+ ("/Users/eccentricayman/Github/SoftDev/" (22500 27575 0 0) "workshop/" "jinja1/" "jinja-ninja/" "flask1/" "flask-templatu/" "../" "./")
 
  ("/Users/eccentricayman/Github/SoftDev/jinja1/templates/" (22500 1991 0 0) "main.html" "../" "./")
 
  ("/Users/eccentricayman/Github/SoftDev/jinja1/" (22498 46704 0 0) "templates/" "hello.py" "../" "./")
-
- ("/Users/eccentricayman/Github/SoftDev/" (22500 12757 0 0) "jinja1/" "jinja-ninja/" "flask1/" "flask-templatu/" "../" "./")
-
- ("/Users/eccentricayman/Github/" (22499 64215 0 0) "workshop/" "Systems/" "StuyvesantSU.github.io/" "StuySC.github.io/" "SoftDev/" "randomshit/" "projecteulerc/" "LibraryScanner/" "facialRecog/" "eccentricayman.github.io/" "dotfiles/" "base16-shell/" "apcs/" "../" "./")
-
- ("/Users/eccentricayman/Github/Systems/" (22500 10705 0 0) "c_hue/" "arrz/" "../" "./")
-
- ("/Users/eccentricayman/" (22500 13577 0 0) "Scripts/" "Public/" "Pictures/" "Music/" "Movies/" "Library/" "Github/" "Downloads/" "Documents/" "Desktop/" "Applications/" ".zshrc" ".zshenv" ".zprofile" ".zpreztorc" ".zprezto/" ".zlogout" ".zlogin" ".zhistory" ".zcompdump.zwc" ".zcompdump" ".zcompcache/" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".tmux.conf.local" ".tmux.conf" ".tmux/" ".subversion/" ".ssh/" ".sh_history" ".oracle_jre_usage/" ".no-asepsis-os-restrictiontouch" ".no-asepsis-os-restriction" ".lesshst" ".gitignore" ".gitconfig" ".emacsbackups/" ".emacs.d/" ".emacs" ".config/" ".cache/" ".bashrc" ".bash_sessions/" ".bash_history" ".bash/" ".asepsis-suppress-update-errors" "../" "./")
 
  ("/Users/eccentricayman/Github/Systems/c_hue/" (22500 13693 0 0) "simple.c" "a.out" "../" "./")
 
@@ -313,10 +319,6 @@
  ("c:/Users/ayman_000/Documents/GitHub/contests/usaco_jan/b2/" (22172 44852 0 0) "angry.java" "../" "./")
 
  ("c:/Users/" (22130 23262 0 0) "Public/" "desktop.ini" "Default.migrated/" "Default User/" "Default/" "ayman_000/" "amrin_000/" "All Users/" "Ahmed Family PC/" "../" "./")
-
- ("c:/Users/ayman_000/Documents/GitHub/contests/usaco_jan/b1/" (22172 42985 0 0) "promote.out" "promote.java" "promote.in" "promote.class" "../" "./")
-
- ("c:/Users/ayman_000/Documents/GitHub/contests/usaco_jan/" (22172 31596 0 0) "b3/" "b2/" "b1/" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

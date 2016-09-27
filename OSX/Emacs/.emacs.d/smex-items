@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- comment-region
+ list-packages
+ neotree-enter-ace-window
  eval-buffer
+ comment-region
  company-irony
  ansi-term
  browse-url
- list-packages
- package-list-packages
 )
 
 ;; ----- smex-data -----
@@ -17,9 +17,9 @@
  (checkdoc-eval-current-buffer . 1)
  (indent-rigidly . 1)
  (eldoc-mode . 1)
- (eval-buffer . 103)
+ (eval-buffer . 111)
  (ido-mode . 1)
- (list-packages . 14)
+ (list-packages . 15)
  (package-refresh-contents . 2)
  (customize-variable . 1)
  (toggle-frame-fullscreen . 1)
@@ -96,4 +96,5 @@
  (company-manual-begin . 4)
  (package-list-packages . 1)
  (browse-url . 1)
+ (neotree-enter-ace-window . 1)
 )

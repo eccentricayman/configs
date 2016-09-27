@@ -85,7 +85,7 @@
  '(company-tooltip-selection ((t (:inherit font-lock-function-name-face)))))
 
 ;because ido-speed-hacks is terribly coded
-;(setq warning-minimum-level :error)
+(setq warning-minimum-level :error)
 ;; Preset width nlinum
 ;(add-hook 'nlinum-mode-hook
 ;          (lambda ()
@@ -121,7 +121,7 @@
       (require 'spaceline-config)
       (spaceline-emacs-theme)
       ;this fixes the spaceline issues on os x, but makes emacs look uglier
-      ;(setq ns-use-srgb-colorspace t)
+      ;(setq ns-use-srgb-colorspace nil)
       (spaceline-compile)
       (global-hl-line-mode 1))
   (progn
@@ -137,7 +137,7 @@
 
 ;also useless, was to fix powerline messing up but we have spaceline now!
 ;(add-hook 'desktop-after-read-hook 'powerline-reset)
-;;;;;;;;;;;;;;;;;;;;;Byebye menu;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;byebye menu;;;;;;;;;;;;;;;;;
 
 ;;;;;;;better mode-line ;;;;;;;;;;;;;;;;;;
 
@@ -148,16 +148,16 @@
 
 ;(setq desktop-buffers-not-to-save
 ;    (concat "\\("
-;            "^nn\\.a[0-9]+\\|\\.log\\|(ftp)\\|^tags\\|^TAGS"
+;            "^nn\\.a[0-9]+\\|\\.log\\|(ftp)\\|^tags\\|^tags"
 ;            "\\|\\.emacs.*\\|\\.diary\\|\\.newsrc-dribble\\|\\.bbdb"
 ;        "\\)$"))
 ;(add-to-list 'desktop-modes-not-to-save 'dired-mode)
-;(add-to-list 'desktop-modes-not-to-save 'Info-mode)
+;(add-to-list 'desktop-modes-not-to-save 'info-mode)
 ;(add-to-list 'desktop-modes-not-to-save 'info-lookup-mode)
 ;(add-to-list 'desktop-modes-not-to-save 'fundamental-mode)
 ;(defun emacs-process-p (pid)
-;  "If pid is the process ID of an emacs process, return t, else nil.
-;Also returns nil if pid is nil."
+;  "if pid is the process id of an emacs process, return t, else nil.
+;also returns nil if pid is nil."
 ;  (when pid
 ;    (let ((attributes (process-attributes pid)) (cmd))
 ;      (dolist (attr attributes)
@@ -166,7 +166,7 @@
 ; q      (if (and cmd (or (string= "emacs" cmd) (string= "emacs.exe" cmd))) t))))
 
 ;(defadvice desktop-owner (after pry-from-cold-dead-hands activate)
-;  "Don't allow dead emacsen to own the desktop file."
+;  "don't allow dead emacsen to own the desktop file."
 ;  (when (not (emacs-process-p ad-return-value))
 ;    (setq ad-return-value nil)))
 
@@ -177,13 +177,13 @@
 ;;(sublimity-mode 1)
 
 
-;grr @ difficult autocompletes.. (sIKE REPLACED WITH COMPANY MODE)
+;grr @ difficult autocompletes.. (sike replaced with company mode)
 ;; (global-set-key [(tab)] 'smart-tab)
 
 ;; (defun smart-tab ()
-;;   "This smart tab is minibuffer compliant: it acts as usual in
-;;     the minibuffer. Else, if mark is active, indents region. Else if
-;;     point is at the end of a symbol, expands it. Else indents the
+;;   "this smart tab is minibuffer compliant: it acts as usual in
+;;     the minibuffer. else, if mark is active, indents region. else if
+;;     point is at the end of a symbol, expands it. else indents the
 ;;     current line."
 ;;   (interactive)
 ;;   (if (minibufferp)
@@ -229,7 +229,7 @@
 )
 
 ;random testing, makes cursor go through entire rainbow spectrum
-; (defvar blink-cursor-colors (list  "#FF0000" "#FF7F00" "#FFFF00" "#00FF00" "0000FF" "551A8B" "4b0082"))
+; (defvar blink-cursor-colors (list  "#ff0000" "#ff7f00" "#ffff00" "#00ff00" "0000ff" "551a8b" "4b0082"))
 ; (setq blink-cursor-count 0)
 ; (defun blink-cursor-timer-function ()
 ;  (when (not (internal-show-cursor-p))
@@ -249,7 +249,7 @@
 (defun always-use-fancy-splash-screens-p () 1)
 (defalias 'use-fancy-splash-screens-p 'always-use-fancy-splash-screens-p)
 (global-set-key (kbd "M-x") 'smex)
-(global-set-key (kbd "M-X") 'smex-major-mode-commands)
+;(global-set-key (kbd "M-x") 'smex-major-mode-commands)
 (global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
 (smex-initialize)
 (defun smex-update-after-load (unused)
@@ -270,7 +270,7 @@
 (setq ido-vertical-show-count t)
 (ido-better-flex/enable)
 (setq neo-smart-open t)
-;non elpa/melpa/marmalade packages, like the M-x speed fixy thingy
+;non elpa/melpa/marmalade packages, like the m-x speed fixy thingy
 (add-to-list 'load-path "~/.emacs.d/lisp/")
 (load "~/.emacs.d/lisp/ido-speed-hack/ido-speed-hack.elc")
 
@@ -279,14 +279,14 @@
 
 ;moving lines up and down
 (defun move-line-up ()
-  "Move up the current line."
+  "move up the current line."
   (interactive)
   (transpose-lines 1)
   (forward-line -2)
   (indent-according-to-mode))
 
 (defun move-line-down ()
-  "Move down the current line."
+  "move down the current line."
   (interactive)
   (forward-line 1)
   (transpose-lines 1)
@@ -298,11 +298,11 @@
 ;might slowdown, but allows vim + emacs
 ;(require 'powerline)
 
-;;;;;;TEMP;;;;;;
+;;;;;;temp;;;;;;
 ;(spaceline-emacs-theme)
-;;;;;;TEMP;;;;;;
+;;;;;;temp;;;;;;
 
-;;;;;;;;;;FIX THIS;;;;;;;;;;
+;;;;;;;;;;fix this;;;;;;;;;;
 ;dat vim
 ;(defun to-evil ()
 ;    (evil-mode 1)
@@ -316,12 +316,12 @@
 ;    (spaceline-emacs-theme))
 
 ;defining keys for emacs-mode and vim-mode
-;(global-set-key (kbd "C-c e") 'to-emacs())
-;(global-set-key (kbd "C-c v") 'to-vim())
+;(global-set-key (kbd "c-c e") 'to-emacs())
+;(global-set-key (kbd "c-c v") 'to-vim())
 
 ;start in emacs mode
 ;(add-hook 'after-init 'to-emacs())
-;;;;;;;;;;FIX THIS;;;;;;;;;;;
+;;;;;;;;;;fix this;;;;;;;;;;;
 (setq redisplay-dont-pause t)
 ;)
 
@@ -365,7 +365,7 @@
    `(company-tooltip-selection ((t (:inherit font-lock-function-name-face))))
    `(company-tooltip-common ((t (:inherit font-lock-constant-face))))))
     
-;eclim 4 java (HOT DAMN THIS TAKES TIME TO LOAD)
+;eclim 4 java (hot damn this takes time to load)
 (require 'company-emacs-eclim)
 (company-emacs-eclim-setup)
 (global-company-mode t)
@@ -381,13 +381,13 @@
 (add-hook 'python-mode-hook 'my/python-mode-hook)
 
 ;processing
-(autoload 'processing-mode "processing-mode" "Processing mode" t)
+(autoload 'processing-mode "processing-mode" "processing mode" t)
 (add-to-list 'auto-mode-alist '("\\.pde$" . processing-mode))
 
-(setq processing-location "/home/eccentricayman/Github/processing-3.1.1/processing-java")
-(setq processing-application-dir "/home/eccentricayman/Github/processing-3.1.1/processing")
+(setq processing-location "/home/eccentricayman/github/processing-3.1.1/processing-java")
+(setq processing-application-dir "/home/eccentricayman/github/processing-3.1.1/processing")
 (setq processing-sketchbook-dir "/home/eccentricayman/sketchbook")
-(global-set-key (kbd "C-c s") 'processing-sketch-run)
+(global-set-key (kbd "C-c P") 'processing-sketch-run)
 
 ;loading f.el (os x is the load one)
 ;(require 'f.el)
@@ -395,7 +395,7 @@
 
 ;java sht (install f.el manually on os x)
 (defun java-compile-and-run ()
-  "Compile and run java files."
+  "compile and run java files."
   (interactive)
   (shell-command-on-region
   ;seperate buffer
@@ -404,13 +404,13 @@
    ;da command
    (concat "javac " (buffer-file-name) " && " "java " (f-base buffer-file-name))
    ;name of buffer
-   "Java Compile and Run"
+   "java compile and run"
    ))
 
 (global-set-key (kbd "C-c j") 'java-compile-and-run)
 
 (defun python-run ()
-  "Easier pythoning than C-c C-c, also only for simple shit"
+  "easier pythoning than c-c c-c, also only for simple shit"
   (interactive)
   (shell-command-on-region
    ;seperate buffr
@@ -419,19 +419,31 @@
    ;running file
    (concat "python " (buffer-file-name))
    ;buffr name
-   "Python Run"
+   "python run"
    ))
 
 (global-set-key (kbd "C-c p") 'python-run)    
 
+(defun script-run ()
+  "Run shell script."
+  (interactive)
+  (shell-command-on-region
+   (point-min)
+   (point-max)
+   (concat ". " (buffer-file-name))
+   "Script Run"
+   ))
+
+(global-set-key (kbd "C-c s") 'script-run)
+
 (defun c-compile-and-run ()
-  "C Compile and run."
+  "c compile and run."
   (interactive)
   (shell-command-on-region
    (point-min)
    (point-max)
    (concat "gcc " (buffer-file-name) " && " "./a.out"))
-  "C Compile and Run"
+  "c compile and run"
   )
 
 (global-set-key (kbd "C-c c") 'c-compile-and-run) 
