@@ -26,7 +26,7 @@
    ["#2d3743" "#ff4242" "#74af68" "#dbdb95" "#34cae2" "#008b8b" "#00ede1" "#e1e1e0"])
  '(custom-safe-themes
    (quote
-    ("0e219d63550634bc5b0c214aced55eb9528640377daf486e13fb18a32bf39856" "b61c55259c639a54628f91452b060b99c550a1269eb947e372321b806b68f114" "1160f5fc215738551fce39a67b2bcf312ed07ef3568d15d53c87baa4fd1f4d4e")))
+    ("de0b7245463d92cba3362ec9fe0142f54d2bf929f971a8cdf33c0bf995250bcf" "0e219d63550634bc5b0c214aced55eb9528640377daf486e13fb18a32bf39856" "b61c55259c639a54628f91452b060b99c550a1269eb947e372321b806b68f114" "1160f5fc215738551fce39a67b2bcf312ed07ef3568d15d53c87baa4fd1f4d4e")))
  '(fancy-splash-image "~/.emacs.d/emacs.png")
  '(fci-rule-color "#3E4451")
  '(org-startup-truncated t)
@@ -127,7 +127,10 @@
   (progn
     ;(powerline-default-theme)
     (require 'airline-themes)
-    (load-theme 'airline-distinguished)))
+    (load-theme 'airline-distinguished)
+    (global-set-key (kbd "<mouse-4>") 'previous-line)
+    (global-set-key (kbd "<mouse-5>") 'next-line)
+    (xterm-mouse-mode)))
 
 ;adios crappy terminal background
 (defun on-after-init ()
