@@ -17,8 +17,6 @@ Plugin 'plasticboy/vim-markdown'
 Plugin 'majutsushi/tagbar'
 Plugin 'bling/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'sjl/gundo.vim'
-Plugin 'rking/ag.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-fugitive'
 Plugin 'chriskempson/base16-vim'
@@ -30,9 +28,6 @@ Plugin 'edkolev/tmuxline.vim'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'keith/tmux.vim'
 Plugin 'lilydjwg/colorizer'
-Plugin 'vim-scripts/TeTrIs.vim'
-Plugin 'whatyouhide/vim-gotham'
-Plugin 'kristijanhusak/vim-hybrid-material'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'vim-scripts/cSyntaxAfter'
 Plugin 'ervandew/supertab'
@@ -115,10 +110,6 @@ nmap <silent> <c-k> :wincmd k<CR>
 nmap <silent> <c-j> :wincmd j<CR>
 nmap <silent> <c-h> :wincmd h<CR>
 nmap <silent> <c-l> :wincmd l<CR>
-" Toggle Gundo
-nnoremap <leader>u :GundoToggle<CR>
-" Shortcut for Silver Searcher
-nnoremap <leader>f :Ag
 " F5 to delete all trailing whitespaces
 nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
 map <C-Tab> :bnext<CR>
@@ -147,7 +138,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 
 autocmd VimEnter * wincmd p " Open help window on the left
 autocmd FileType help wincmd L
-"let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""' " Make CtrlP faster by using Ag
+let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""' " Make CtrlP faster by using Ag
 "autoquits nerdtree if last buffer
 function! NERDTreeQuit()
   redir => buffersoutput
