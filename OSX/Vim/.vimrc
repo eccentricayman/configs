@@ -37,6 +37,9 @@ Plugin 'tomtom/tcomment_vim'
 Plugin 'vim-scripts/cSyntaxAfter'
 Plugin 'ervandew/supertab'
 Plugin 'Raimondi/delimitMate'
+Plugin 'mhinz/vim-startify'
+Plugin 'sheerun/vim-polyglot'
+Plugin 'joshdick/onedark.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -75,7 +78,7 @@ set guifont=Monaco\ for\ Powerline:h12
 if has("gui_running")
   " GUI is running or is about to start.
   " Set gVim to a decent size
-  set lines=33 columns=130
+  set lines=41 columns=130
 endif
 inoremap jk <esc>
 noremap <Up> <NOP>
@@ -88,9 +91,9 @@ let delimitMate_expand_cr = 1
 
 " Color Themes
 " .....................................
-colorscheme base16-brewer
+colorscheme onedark
 if has('gui_running')
-   colorscheme base16-google-dark
+   colorscheme onedark
 endif
 autocmd! FileType c,cpp,java,php call CSyntaxAfter()
 
@@ -118,6 +121,8 @@ nnoremap <leader>u :GundoToggle<CR>
 nnoremap <leader>f :Ag
 " F5 to delete all trailing whitespaces
 nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
+map <C-Tab> :bnext<CR>
+map <C-S-Tab> :bprev<CR>
 
 " FileTypes
 " .....................................
@@ -136,7 +141,7 @@ endif
 
 " NERDTree
 " .....................................
-autocmd VimEnter * NERDTree " Auto-start nerdtree and move focus to main pane
+"autocmd VimEnter * NERDTree " Auto-start nerdtree and move focus to main pane
 " Auto-close nerdtree when closing primary file
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
@@ -166,6 +171,7 @@ function! NERDTreeQuit()
     quitall
   endif
 endfunction
+let NerdTreeShowHidden=1
 autocmd WinEnter * call NERDTreeQuit()
 
 " CSS Color Configuraiton
@@ -177,7 +183,7 @@ let g:cssColorVimDoNotMessMyUpdatetime = 1
 let g:airline#extensions#tabline#enabled = 1 " Enable the list of buffers
 let g:airline#extensions#tabline#fnamemod = ':t' " Show just the filename
 let g:airline#extensions#branch#enabled = 1 " Enable branches
-let g:airline_theme='base16'
+let g:airline_theme='onedark'
 
 " Status Line Configuration
 " .....................................

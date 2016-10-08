@@ -2,12 +2,18 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/Users/eccentricayman/Github/Systems/" . "strings2/")
- ("/Users/eccentricayman/Github/SoftDev/jinja-ninja/" . "templates/")
+ ("/Users/eccentricayman/Github/SoftDev/lawgin/" . "templates/")
+ ("/Users/eccentricayman/Github/Stuff/" . "LibraryScanner/")
+ ("/Users/eccentricayman/Github/SoftDev/lawgien/" . "templates/")
+ ("/Users/eccentricayman/Github/SoftDev/form1/" . "templates/")
+ ("/Users/eccentricayman/Github/APCS/apcs1/" . "hw10/")
+ ("/Users/eccentricayman/Github/APCS/" . "apcs1/")
+ ("/Users/eccentricayman/Github/Systems/" . "StringThings/")
+ ("/Users/eccentricayman/Github/SoftDev/jinja-ninja/" . "static/")
  ("/Users/eccentricayman/Github/SoftDev/jinja1/" . "templates/")
  ("/Users/eccentricayman/Github/SoftDev/flask-templatu/static/" . "styles/")
  ("/Users/eccentricayman/Github/SoftDev/flask-templatu/" . "static/")
- ("/Users/eccentricayman/Github/SoftDev/" . "jinja-ninja/")
+ ("/Users/eccentricayman/Github/SoftDev/" . "flask-templatu/")
  ("/Users/eccentricayman/Github/flask-templatu/static/" . "styles/")
  ("/Users/eccentricayman/Github/flask-templatu/" . "static/")
  ("/Users/eccentricayman/Github/softdevtestu/" . "flasku/")
@@ -19,7 +25,7 @@
  ("/Users/eccentricayman/.emacs.d/lisp/" . "ido-speed-hack/")
  ("/Users/eccentricayman/.emacs.d/" . "lisp/")
  ("/Users/eccentricayman/Github/dotfiles/" . "Linux/")
- ("/Users/eccentricayman/Github/" . "Systems/")
+ ("/Users/eccentricayman/Github/" . "eccentricayman.github.io/")
  ("/Users/eccentricayman/" . "Github/")
  ("/home/eccentricayman/Github/apcs/apcs2/" . "hw17/")
  ("/home/eccentricayman/Github/apcs/" . "apcs2/")
@@ -52,16 +58,30 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/eccentricayman/Github/SoftDev/lawgin/templates/"
+ "/Users/eccentricayman/Github/"
+ "/Users/eccentricayman/Github/SoftDev/lawgin/data/"
+ "/Users/eccentricayman/Github/eccentricayman.github.io/"
+ "/Users/eccentricayman/Github/Stuff/LibraryScanner/"
+ "/Users/eccentricayman/Github/Systems/StringThings/"
  "/Users/eccentricayman/"
- "/Users/eccentricayman/Github/Systems/strings2/"
- "/Users/eccentricayman/Github/SoftDev/jinja-ninja/"
+ "/Users/eccentricayman/Github/SoftDev/flask-templatu/static/styles/"
+ "/Users/eccentricayman/Github/SoftDev/lawgien/templates/"
+ "/Users/eccentricayman/Github/SoftDev/lawgien/"
+ "/Users/eccentricayman/Github/SoftDev/form1/"
+ "/Users/eccentricayman/Github/SoftDev/form1/templates/"
  "/Users/eccentricayman/Scripts/"
+ "/Users/eccentricayman/Github/SoftDev/form1/static/"
+ "/Users/eccentricayman/Github/SoftDev/jinja-ninja/static/"
  "/Users/eccentricayman/Github/SoftDev/jinja-ninja/templates/"
+ "/Users/eccentricayman/Github/SoftDev/jinja-ninja/"
+ "/Users/eccentricayman/Github/APCS/apcs1/hw10/"
+ "/Users/eccentricayman/Github/SoftDev/jinja-ninja/utils/"
+ "/Users/eccentricayman/Github/Systems/strings2/"
  "/Users/eccentricayman/Github/Systems/c_hue/"
  "/Users/eccentricayman/Github/SoftDev/jinja1/templates/"
  "/Users/eccentricayman/Github/SoftDev/jinja1/"
  "/Users/eccentricayman/Github/SoftDev/flask-templatu/"
- "/Users/eccentricayman/Github/SoftDev/flask-templatu/static/styles/"
  "/Users/eccentricayman/Github/flask-templatu/static/styles/"
  "/Users/eccentricayman/Github/softdevtestu/flasku/"
  "/Users/eccentricayman/.emacsbackups/"
@@ -71,7 +91,6 @@
  "/Users/eccentricayman/Github/apcs/apcs2/"
  "/Users/eccentricayman/Github/randomshit/"
  "/Users/eccentricayman/.tmux/"
- "/Users/eccentricayman/Github/"
  "/Users/eccentricayman/Github/aymanandnick/"
  "/Users/eccentricayman/Applications/"
  "/Users/eccentricayman/Github/randomizah/"
@@ -89,52 +108,79 @@
  "/home/eccentricayman/.zprezto/runcoms/"
  "/home/eccentricayman/Github/apcs/apcs2/CodingBat/"
  "/home/eccentricayman/.config/cava/"
- "/home/eccentricayman/Github/Encryptuuu/"
- "/home/eccentricayman/Downloads/CustomConfigs-master/Sublime Text 3/"
- "/home/eccentricayman/.processing/console/"
- "/home/eccentricayman/.config/base16-shell/"
- "/home/eccentricayman/.emacsbackups/"
- "c:/Users/ayman_000/Documents/GitHub/Encryptuuu/"
- "c:/Users/ayman_000/AppData/Roaming/"
- "C:/Users/ayman_000/Documents/GitHub/Encryptuuu/"
- "c:/Users/ayman_000/Documents/GitHub/apcs1/hw59/"
- "c:/Users/ayman_000/Documents/GitHub/FinalProject/"
- "c:/Users/ayman_000/AppData/Roaming/.emacs.d/lisp/ido-speed-hack/"
- "c:/Users/ayman_000/Documents/GitHub/contests/usaco_jan/b1/"
- "c:/Users/ayman_000/Documents/GitHub/contests/usaco_jan/b2/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "authenticate.html"
+ "login.html"
+ "crash.c"
+ "homepage.html"
+ "geniefriends.csv"
+ "index.html"
+ "LibScanner.py"
+ "Makefile"
  ".emacs"
- "slen.c"
- "occu-table.py"
- "schedule.py"
- "occupations.html"
- "occupations.csv"
- "greet.java"
- "Driver.java"
- "main.html"
- "hello.py"
+ ".zshrc"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/eccentricayman/" (22506 39752 0 0) "Scripts/" "Public/" "Pictures/" "Music/" "Movies/" "Library/" "Github/" "Downloads/" "Documents/" "Desktop/" "Applications/" ".zshrc" ".zshenv" ".zprofile" ".zpreztorc" ".zprezto/" ".zlogout" ".zlogin" ".zhistory" ".zcompdump.zwc" ".zcompdump" ".zcompcache/" ".vimrc" ".viminfo" ".vim/" ".Trash/" ".tmux.conf.local" ".tmux.conf" ".tmux/" ".subversion/" ".ssh/" ".sh_history" ".oracle_jre_usage/" ".no-asepsis-os-restrictiontouch" ".no-asepsis-os-restriction" ".ncmpcpp/" ".lyrics/" ".lesshst" ".gitignore" ".gitconfig" ".esd_auth" ".emacsbackups/" ".emacs.d/" ".emacs" ".config/" ".cache/" ".bashrc" ".bash_sessions/" ".bash_history" ".bash/" ".asepsis-suppress-update-errors" "../" "./")
+ ("/Users/eccentricayman/Github/SoftDev/lawgin/templates/" (22518 43583 0 0) "login.html" "homepage.html" "authenticate.html" "../" "./")
+
+ ("/Users/eccentricayman/Github/SoftDev/lawgin/" (22518 44804 0 0) "templates/" "static/" "README.md" "data/" "app.py" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/eccentricayman/" (22518 42094 0 0) "Scripts/" "Public/" "Pictures/" "Music/" "Movies/" "Library/" "Google Drive/" "Github/" "Downloads/" "Documents/" "Desktop/" "Applications/" ".zshrc" ".zshenv" ".zprofile" ".zpreztorc" ".zprezto/" ".zlogout" ".zlogin" ".zhistory" ".zcompdump.zwc" ".zcompdump" ".zcompcache/" ".vimrc" ".viminfo" ".vim/" ".v8flags.5.1.281.83.eccentricayman.json" ".Trash/" ".tmux.conf.local" ".tmux.conf" ".tmux/" ".subversion/" ".ssh/" ".sh_history" ".oracle_jre_usage/" ".npmrc" ".npm/" ".node-gyp/" ".no-asepsis-os-restrictiontouch" ".no-asepsis-os-restriction" ".ncmpcpp/" ".lyrics/" ".local/" ".lesshst" ".gitignore" ".gitconfig" ".esd_auth" ".emacsbackups/" ".emacs.d/" ".emacs" ".config/" ".cache/" ".bashrc" ".bash_sessions/" ".bash_history" ".bash/" ".asepsis-suppress-update-errors" "../" "./")
+
+ ("/Users/eccentricayman/Github/SoftDev/lawgin/data/" (22517 21116 0 0) "geniefriends.csv" "../" "./")
+
+ ("/Users/eccentricayman/Github/eccentricayman.github.io/" (22496 47604 0 0) "resume.pdf" "README.md" "min/" "js/" "index.html" "img/" "fonts/" "font-awesome/" "font/" "css/" ".git/" "../" "./")
+
+ ("/Users/eccentricayman/Github/Stuff/LibraryScanner/" (22517 41936 0 0) "log.txt" "LibScanner.py" "KLSched.xlsx" "data.pyc" "data.py" "../" "./")
+
+ ("/Users/eccentricayman/Github/Stuff/" (22517 38929 0 0) "StuyvesantSU.github.io/" "StuySC.github.io/" "StuyMUN/" "snapdrop/" "LibraryScanner/" "facialRecog/" "../" "./")
+
+ ("/Users/eccentricayman/Github/Systems/StringThings/" (22517 20585 0 0) "stringthings.c" "README.md" "Makefile" "a.out" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/eccentricayman/Github/" (22516 22460 0 0) "Systems/" "Stuff/" "SoftDev/" "eccentricayman.github.io/" "dotfiles/" "base16-shell/" "APCS/" "../" "./")
+
+ ("/Users/eccentricayman/Github/SoftDev/" (22514 43189 0 0) "workshop/" "lawgin/" "jinja1/" "jinja-ninja/" "form1/" "flask1/" "flask-templatu/" "../" "./")
+
+ ("/Users/eccentricayman/Github/SoftDev/lawgien/templates/" (22513 14557 0 0) "login.html" "authenticate.html" "../" "./")
+
+ ("/Users/eccentricayman/Github/SoftDev/lawgien/" (22513 14872 0 0) "templates/" "static/" "README.md" "data/" "app.py" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/eccentricayman/Github/SoftDev/lawgien/data/" (22513 9376 0 0) "definetelynotpasswords.csv" "../" "./")
+
+ ("/Users/eccentricayman/Github/SoftDev/lawgien/static/" (22513 9462 0 0) "style.css" "sadgenie.jpg" "happygenie.jpg" "../" "./")
+
+ ("/Users/eccentricayman/Github/Systems/" (22509 26067 0 0) "stringy/" "StringThings/" "strings2/" "strings1/" "projecteulerc/" "c_hue/" "arrz/" "../" "./")
+
+ ("/Users/eccentricayman/Github/SoftDev/form1/templates/" (22509 63414 0 0) "form.html" "../" "./")
+
+ ("/Users/eccentricayman/Github/SoftDev/form1/" (22509 25501 0 0) "templates/" "app.py" "../" "./")
+
+ ("/Users/eccentricayman/Scripts/" (22509 51323 0 0) "weather.sh" "undertale.sh" "tvs.sh" "titlebars.sh" "timer.sh" "sysinfo" "start_lemonbar.sh" "skulls.sh" "screenshotclean.sh" "screens" "schedule.py" "rupees.sh" "pokemon.sh" "pipes.sh" "pacman.sh" "lock.sh" "Lock" "lemonbar.sh" "itermborder.sh" "invaders.sh" "hide_lemonbar.sh" "fortune-i3lock/" "emacsprofile.sh" "dootdoot.lua" "candy.sh" "antigen.zsh" "../" "./")
+
+ ("/Users/eccentricayman/Github/SoftDev/form1/static/" (22507 60515 0 0) "main.css" "../" "./")
+
+ ("/Users/" (22502 59769 0 0) "Shared/" "eccentricayman/" ".localized" "../" "./")
+
+ ("/Users/eccentricayman/Github/SoftDev/jinja-ninja/static/" (22506 44448 0 0) "main.css" "../" "./")
+
+ ("/Users/eccentricayman/Github/SoftDev/jinja-ninja/templates/" (22507 59746 0 0) "occupations.html" "../" "./")
+
+ ("/Users/eccentricayman/Github/SoftDev/jinja-ninja/" (22506 45998 0 0) "utils/" "templates/" "static/" "README.md" "data/" "app.py" ".gitignore" ".git/" "#occupations.py#" "../" "./")
+
+ ("/Users/eccentricayman/Github/APCS/apcs1/hw10/" (22506 37533 0 0) "README.md" "BankAccount.java" "../" "./")
+
+ ("/Users/eccentricayman/Github/APCS/apcs1/" (22506 37533 0 0) "notes/" "Misc/" "hw59/" "hw58/" "hw54/" "hw53/" "hw52/" "hw51/" "hw50/" "hw48/" "hw47/" "hw46/" "hw44/" "hw43/" "hw42/" "hw41/" "hw40/" "hw39/" "hw38/" "hw36/" "hw35/" "hw34/" "hw30/" "hw28/" "hw27/" "hw26/" "hw25/" "hw24/" "hw22/" "hw21/" "hw20/" "hw18/" "hw17/" "hw16/" "hw15/" "hw14/" "hw13/" "hw12/" "hw10/" "hw08/" "heading.txt" "../" "./")
+
+ ("/Users/eccentricayman/Github/APCS/" (22506 37533 0 0) "README.md" "apcs2/" "apcs1/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/eccentricayman/Github/SoftDev/jinja-ninja/utils/" (22506 40583 0 0) "occupations.py" "../" "./")
 
  ("/Users/eccentricayman/Github/Systems/strings2/" (22505 30528 0 0) "strchr.c" "slen.c" "../" "./")
-
- ("/Users/eccentricayman/Github/Systems/" (22505 28471 0 0) "strings2/" "strings1/" "projecteulerc/" "c_hue/" "arrz/" "../" "./")
-
- ("/Users/eccentricayman/Scripts/" (22505 17511 0 0) "weather.sh" "undertale.sh" "tvs.sh" "titlebars.sh" "timer.sh" "sysinfo" "start_lemonbar.sh" "skulls.sh" "screenshotclean.sh" "screens" "schedule.sh" "rupees.sh" "pokemon.sh" "pipes.sh" "pacman.sh" "lock.sh" "lemonbar.sh" "itermborder.sh" "invaders.sh" "hide_lemonbar.sh" "fortune-i3lock/" "emacsprofile.sh" "dootdoot.lua" "candy.sh" "antigen.zsh" "../" "./")
-
- ("/Users/eccentricayman/Github/SoftDev/jinja-ninja/templates/" (22504 28060 0 0) "occupations.html" "../" "./")
-
- ("/Users/eccentricayman/Github/SoftDev/jinja-ninja/" (22504 27580 0 0) "templates/" "README.md" "occupations.csv" "occu-table.py" ".gitignore" ".git/" "../" "./")
-
- ("/Users/eccentricayman/Github/" (22503 25550 0 0) "Systems/" "Stuff/" "SoftDev/" "eccentricayman.github.io/" "dotfiles/" "cli-visualizer-master/" "base16-shell/" "APCS/" "../" "./")
-
- ("/Users/eccentricayman/Github/SoftDev/" (22500 27575 0 0) "workshop/" "jinja1/" "jinja-ninja/" "flask1/" "flask-templatu/" "../" "./")
 
  ("/Users/eccentricayman/Github/SoftDev/jinja1/templates/" (22500 1991 0 0) "main.html" "../" "./")
 
@@ -190,8 +236,6 @@
 
  ("/Users/eccentricayman/.tmux/" (22492 45226 0 0) "README.md" ".tmux.conf.local" ".tmux.conf" ".git/" "../" "./")
 
- ("/Users/eccentricayman/Github/eccentricayman.github.io/" (22492 7511 0 0) "resume.pdf" "README.md" "min/" "js/" "index.html" "img/" "fonts/" "font-awesome/" "font/" "css/" ".git/" "../" "./")
-
  ("/Users/eccentricayman/Github/aymanandnick/" (22492 17681 0 0) "README.md" "occupations.py" "occupations.csv" ".git/" "../" "./")
 
  ("/Users/eccentricayman/Github/randomizah/" (22489 31360 0 0) "README.md" "randomizer.py" ".git/" "../" "./")
@@ -203,8 +247,6 @@
  ("/Users/eccentricayman/.emacs.d/" (22489 56508 0 0) "url/" "type-break" "tramp" "smex-items" "SessionDesktop.el" "recentf" "profile-dotemacs.elc" "profile-dotemacs.el" "lisp/" "ido.last" "eshell/" "elpa/" "auto-save-list/" "ac-comphist.dat" ".tutor/" "../" "./")
 
  ("/Users/eccentricayman/Applications/" (22487 20717 0 0) ".localized" "../" "./")
-
- ("/Users/" (22482 46149 0 0) "Shared/" "eccentricayman/" ".localized" "../" "./")
 
  ("/Users/eccentricayman/.emacs.d/lisp/" (22489 56051 0 0) "ido-speed-hack/" "f/" "../" "./")
 
@@ -283,42 +325,6 @@
  ("c:/Users/ayman_000/Documents/GitHub/Encryptuuu/" (22179 1412 0 0) "Tutorial.java" "to-do.txt" "temp.txt" "StatCheck.java" "StatCheck.class" "README.md" "Position.java" "Player.java" "Main.java" "Game.java" "Equips.java" "Equips.class" "Chest.java" "Character.java" "Character.class" "Board.java" "AI.java" "AI.class" ".gitignore" ".git/" "../" "./")
 
  ("c:/Users/ayman_000/AppData/Roaming/" (22177 10234 0 0) "Xilisoft/" "vlc/" "uTorrent/" "Tunngle/" "tor/" "TeamViewer/" "SystemRequirementsLab/" "Synaptics/" "Sun/" "Sublime Text 3/" "Spotify/" "Skype/" "Riot Games/" "Rainmeter/" "Racket/" "QtProject/" "Qt/" "qBittorrent/" "PSReadline/" "psget/" "Processing/" "PrivateTunnel/" "Origin/" "Oracle/" "OpenVPN Technologies/" "OBS/" "NuGet/" "Notepad++/" "Need for Speed World/" "Mumble/" "Mozilla/" "Mirillis/" "Microsoft/" "Mathematica/" "Macromedia/" "LolClient/" "licecap.ini" "LibreOffice/" "JetBrains/" "JAM Software/" "Intel Corporation/" "InstallShield/" "Injustice/" "IDT/" "Identities/" "hpqLog/" "Highresolution Enterprises/" "Hide.me/" "HewlettPackard/" "Hewlett-Packard/" "HandBrake/" "Gyazo/" "gnupg/" "GitHub/" "ftblauncher/" "Freedom.to/" "Foxit Software/" "fltk.org/" "FileZilla/" "EndNote/" "emacs.png" "Dropbox/" "DivX/" "Digiarty/" "dclogs/" "CyberLink/" "Curse/" "Console/" "ConEmu.xml" "ClassicShell/" "Brackets/" "Bioshock Infinite/" "Battle.net/" "Awesomium/" "Audacity/" "Atom/" "Apple Computer/" "Apowersoft/" "AnvSoft/" "Adobe/" "Acronis/" ".ssh/" ".spacemacs.d/" ".minecraft/" ".history" ".gnupg/" ".emacsbackups/" ".emacs.d/" ".emacs" "../" "./")
-
- ("c:/Users/ayman_000/" (22179 597 0 0) "_vimrc~" "_vimrc" "_viminfo" "Videos/" "Tracing/" "Templates/" "Start Menu/" "SkyDrive/" "SendTo/" "Searches/" "Saved Games/" "recycle.bat" "Recent/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.pol" "ntuser.ini" "NTUSER.DAT{9f037fb3-2982-11e3-93f1-b8ca3aee0e44}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{9f037fb3-2982-11e3-93f1-b8ca3aee0e44}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{9f037fb3-2982-11e3-93f1-b8ca3aee0e44}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "IdeaProjects/" "Favorites/" "emacs.png" "emacs-default.png" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Creative Cloud Files/" "Cookies/" "Contacts/" "cmder/" "Application Data/" "AppData/" "AndroidStudioProjects/" "._vimrc.swp" ".weblaf/" ".viminfo" ".vim/" ".ssh/" ".oracle_jre_usage/" ".local/" ".jampal/" ".idlerc/" ".IdeaIC14/" ".gradle/" ".gitconfig" ".emacs.d/" ".cache/" ".AndroidStudio1.4/" ".android/" "../" "./")
-
- ("C:/Users/ayman_000/Documents/GitHub/Encryptuuu/" (22178 54624 0 0) "Tutorial.java" "to-do.txt" "temp.txt" "StatCheck.java" "StatCheck.class" "README.md" "Position.java" "Player.java" "Main.java" "Game.java" "Equips.java" "Equips.class" "Chest.java" "Character.java" "Character.class" "Board.java" "AI.java" ".gitignore" ".git/" "../" "./")
-
- ("C:/Users/ayman_000/Documents/GitHub/" (22177 20248 0 0) "VimStuff/" "testing/" "SublimeSaves/" "StuyCSDojo.github.io/" "OGFireDogeMatrix/" "Number/" "FinalProjectFall2015-BillyWongMatthewZhu/" "FinalProjectCeline/" "Encryptuuu/" "eccentricayman.github.io/" "CustomConfigs/" "contests/" "Backup/" "apcs1/" "../" "./")
-
- ("C:/Users/ayman_000/" (22178 22753 0 0) "_viminfo" "Videos/" "Tracing/" "Templates/" "Start Menu/" "spf13-vim-windows-install.cmd" "SkyDrive/" "settings/" "SendTo/" "Searches/" "Saved Games/" "recycle.bat" "Recent/" "PrintHood/" "Pictures/" "OneDrive/" "ntuser.pol" "ntuser.ini" "NTUSER.DAT{9f037fb3-2982-11e3-93f1-b8ca3aee0e44}.TMContainer00000000000000000002.regtrans-ms" "NTUSER.DAT{9f037fb3-2982-11e3-93f1-b8ca3aee0e44}.TMContainer00000000000000000001.regtrans-ms" "NTUSER.DAT{9f037fb3-2982-11e3-93f1-b8ca3aee0e44}.TM.blf" "ntuser.dat.LOG2" "ntuser.dat.LOG1" "NTUSER.DAT" "NetHood/" "My Documents/" "Music/" "Local Settings/" "Links/" "IntelGraphicsProfiles/" "IdeaProjects/" "font/" "Favorites/" "emacs.png" "emacs-default.png" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Creative Cloud Files/" "Cookies/" "Contacts/" "cmder/" "Application Data/" "AppData/" "AndroidStudioProjects/" ".weblaf/" ".viminfo" ".vim/" ".ssh/" ".spf13-vim-3/" ".oracle_jre_usage/" ".jampal/" ".idlerc/" ".IdeaIC14/" ".gradle/" ".gitconfig" ".emacs.d/" ".cache/" ".AndroidStudio1.4/" ".android/" "../" "./")
-
- ("c:/Users/ayman_000/Documents/GitHub/apcs1/hw59/" (22178 21397 0 0) "free-response.txt" ".#free-response.txt" "#free-response.txt#" "../" "./")
-
- ("c:/Users/ayman_000/Documents/GitHub/apcs1/" (22178 16176 0 0) "README.md" "notes/" "Misc/" "hw59/" "hw54/" "hw53/" "hw52/" "hw51/" "hw50/" "hw48/" "hw47/" "hw46/" "hw44/" "hw43/" "hw42/" "hw41/" "hw40/" "hw39/" "hw38/" "hw36/" "hw35/" "hw34/" "hw30/" "hw28/" "hw27/" "hw26/" "hw25/" "hw24/" "hw22/" "hw21/" "hw20/" "hw18/" "hw17/" "hw16/" "hw15/" "hw14/" "hw13/" "hw12/" "hw10/" "hw08/" "heading.txt" "heading.java" "heading.class" ".gitignore" ".git/" "../" "./")
-
- ("c:/Users/ayman_000/Documents/GitHub/" (22177 20248 0 0) "VimStuff/" "testing/" "SublimeSaves/" "StuyCSDojo.github.io/" "OGFireDogeMatrix/" "Number/" "FinalProjectFall2015-BillyWongMatthewZhu/" "FinalProjectCeline/" "Encryptuuu/" "eccentricayman.github.io/" "CustomConfigs/" "contests/" "Backup/" "apcs1/" "../" "./")
-
- ("/Users/ayman_000/AppData/Roaming/" (22175 60992 0 0) "Xilisoft/" "vlc/" "uTorrent/" "Tunngle/" "tor/" "TeamViewer/" "SystemRequirementsLab/" "Synaptics/" "Sun/" "Sublime Text 3/" "Spotify/" "Skype/" "Riot Games/" "Rainmeter/" "Racket/" "QtProject/" "Qt/" "qBittorrent/" "PSReadline/" "psget/" "Processing/" "PrivateTunnel/" "Origin/" "Oracle/" "OpenVPN Technologies/" "OBS/" "NuGet/" "Notepad++/" "Need for Speed World/" "Mumble/" "Mozilla/" "Mirillis/" "Microsoft/" "Mathematica/" "Macromedia/" "LolClient/" "licecap.ini" "LibreOffice/" "JetBrains/" "JAM Software/" "Intel Corporation/" "InstallShield/" "Injustice/" "IDT/" "Identities/" "hpqLog/" "Highresolution Enterprises/" "Hide.me/" "HewlettPackard/" "Hewlett-Packard/" "HandBrake/" "Gyazo/" "gnupg/" "GitHub/" "ftblauncher/" "Freedom.to/" "Foxit Software/" "fltk.org/" "FileZilla/" "EndNote/" "emacs.png" "Dropbox/" "DivX/" "Digiarty/" "dclogs/" "CyberLink/" "Curse/" "Console/" "ConEmu.xml" "ClassicShell/" "Brackets/" "Bioshock Infinite/" "Battle.net/" "Awesomium/" "Audacity/" "Atom/" "Apple Computer/" "Apowersoft/" "AnvSoft/" "Adobe/" "Acronis/" ".ssh/" ".spacemacs.d/" ".minecraft/" ".history" ".gnupg/" ".emacsbackups/" ".emacs.d/" ".emacs" "../" "./")
-
- ("c:/Users/ayman_000/AppData/Roaming/.emacs.d/lisp/ido-speed-hack/" (22175 60715 0 0) "ido-speed-hack.elc" "ido-speed-hack.el" ".gitignore" ".git/" "../" "./")
-
- ("c:/Users/ayman_000/Documents/GitHub/FinalProject/" (22175 61372 0 0) "README.md" "Character.java" ".gitignore" ".git/" "../" "./")
-
- ("c:/Users/ayman_000/Dropbox/" (22124 63018 0 0) "~$man Ahmed's Algae relab.docx" "Screenshots/" "Met Cover.docx" "Manet and De___.docx" "Genetics Projects/" "desktop.ini" "Armor for Man and Horse.docx" "02_AhmedA/" ".dropbox.cache/" ".dropbox" "../" "./")
-
- ("c:/Users/ayman_000/AppData/Roaming/.emacs.d/lisp/" (22175 59842 0 0) "ido-speed-hack/" "../" "./")
-
- ("c:/Users/ayman_000/AppData/Roaming/.emacs.d/" (22175 60038 0 0) "url/" "tramp" "themes/" "smex-items" "server/" "recentf" "lisp/" "ido.last" "eshell/" "elpa/" "auto-save-list/" "ac-comphist.dat" ".tutor/" "../" "./")
-
- ("C:/Users/ayman_000/Documents/" (22171 61273 0 0) "~WRL3570.tmp" "~WRL0003.tmp" "~$use_Water_Leak_DEP_Letter.docx" "~$od Journal.docx" "~$man Ahmed's Transcription for English.docx" "~$man Ahmed's Lab #4 PreLab.docx" "~$man Ahmed's Lab #1 Grasshopper Dissection.docx" "~$man Ahmed's La Comida Mexicana.docx" "~$man Ahmed's H.W #4.docx" "~$man Ahmed's Chapter 7 Project.docx" "~$GOutlineNIDDM.docx" "~$glish I-search dRaft.docx" "~$CSTLB.docx" "~$anscription.docx" "~$abetesType2HGIntro.docx" "YUS FIBONACCI.rkt" "Youcam/" "WindowsPowerShell/" "Vamos a Venezuela.docx" "TrigReviewEC.docx" "Transcription.docx" "Transcription (Autosaved).docx" "timesheet (1).xlsm" "The scene in which Vronsky races with the horse casts a deep foreshadowing of how Vronsky.docx" "testdata.csv" "StuyLibrary/" "Stuy Wi-Fi SSID and Password.pptx" "sterr_writeupfinal.docx" "stern_termproject.docx" "SpotifyWebRecorder/" "SPANISH.odt" "SimplePickAndMove.nlogo" "Scan_20150922.pdf" "Scanned Documents/" "Rider to the Lease.docx" "Razer/" "Rainmeter/" "Quantum_Conspiracy.docx" "Processing/" "Popcorn Time.lnk" "PLANTS PHOTOSYNTHESIS LAZY SISTER.docx" "output-server.log" "output-client.log" "options.txt" "OpenDownloadForm.pdf" "Notepad++/" "Non Insulin-Dependent Diabetes Mellitus_PDFVERSION.pdf" "Nexus Mod Manager/" "NEW GUNS GERMS STEEL ACUTAL ASSIGNMENT PREVIOUS WAS A FAIL.docx" "MyTiData/" "My Videos/" "My Pictures/" "My Music/" "My games/" "Music Appreciation Study Guide.doc" "MumbleAutomaticCertificateBackup.p12" "Modding/" "Minutes_3-11.docx" "Minutes.docx" "Minutes for January 14th.docx" "madlibs2.py" "LOLReplay/" "launcher_profiles.json" "hw53_day9review.rkt" "hw49.py" "hw46.py" "hw32_recursethroughnumerals.rkt" "hw31_remainingfunctions.rkt" "hw30_sublistsreprise.rkt" "hw29_sublists-equality.rkt" "hw29.py" "hw28_axElement.rkt" "hw27_reversefactorialfib.rkt" "hw26_listsotherends.rkt" "hw24_sumoflist.rkt" "hw23_owntest2.rkt" "hw19_listandappend.rkt" "hw18_harderlistanalysis.rkt" "hw17_listanalysis.rkt" "hw15_ownTest1.rkt" "hw13_cond.rkt" "hw13_booleanoperators.rkt" "hw12_simpleifs.rkt" "hw11_moduloandquotient.rkt" "hudsonguildfinalapplication2015.pdf" "hp.system.package.metadata/" "hp.applications.package.appdata/" "House_Water_Leak_DEP_Letter.docx" "healtharticle2.docx" "H2GOutlineNIDDM.docx" "Guns.docx" "GitHub/" "Food Journal.docx" "FINALPAPERGENETICSNIDDMFINALLY.docx" "Final Project!!!/" "Figure.docx" "Fax/" "fang_healtharticle2.docx" "fang_healtharticle1.docx" "fang_foodlabels.docx" "fang_finalproject.docx" "FAIMIRUHISTORIAPROJECTU.docx" "EnglishMnMattractingmates.docx" "English I-search dRaft.docx" "echoGet.py" "EasyBCD Backup (2015-03-21).bcd" "Downloads/" "Doc1.docx" "DiabetesType2HGIntro.docx" "desktop.ini" "depressionposter.pptx" "DDAYGeneticsEssay.docx" "Custom Office Templates/" "CSTLB.docx" "Criterion Games/" "Computer Architecture Terms.docx" "CompSciGrading.rkt" "CandideinStuy.docx" "build-StuyLibrary-Desktop_Qt_5_5_1_MinGW_32bit-Debug/" "Battlefield 3/" "bard4.odt" "Ayman Ahmed's Waxman Global Study Guide for Finals.doc" "Ayman Ahmed's Transcription for English.docx" "Ayman Ahmed's The Complete Odyssey-essey.docx" "Ayman Ahmed's Tarea #5.docx" "Ayman Ahmed's Tarea #13.docx" "Ayman Ahmed's Student.docx" "Ayman Ahmed's Pro Case (January 2013).docx" "Ayman Ahmed's Photosynthesis Extra Credit.docx" "Ayman Ahmed's Music Appreciation Listening List.docx" "Ayman Ahmed's Monologue Project Reflection.docx" "Ayman Ahmed's Minutes for March 14th.docx" "Ayman Ahmed's Lab #4 PreLab.docx" "Ayman Ahmed's Lab #11.docx" "Ayman Ahmed's Lab #1 Grasshopper Dissection.docx" "Ayman Ahmed's H.W #4.docx" "Ayman Ahmed's Grasshopper Lab.docx" "Ayman Ahmed's Genetics Extra Credit.docx" "Ayman Ahmed's Frog Dissection PreLab.docx" "Ayman Ahmed's Excretory System H.W.docx" "Ayman Ahmed's Ever Cringe-Worthy Recursion Rhymes.odt" "Ayman Ahmed's Ever Cringe-Worthy Recursion Rhymes.docx" "Ayman Ahmed's Endocrine Disruptors.docx" "Ayman Ahmed's Chapter 7.2 Project.docx" "Ayman Ahmed's Chapter 7 Project.docx" "Ayman Ahmed's Chapter 7 Project Presentation.pptx" "Ayman Ahmed's Chapter 33 Outline.docx" "Ayman Ahmed's Assignment #6.docx" "Ayman Ahmed's Art Portfolio.docx" "Ayman Ahmed's Alstroemeria Collage.pptx" "Ayman Ahmed's  Osteoporosis.docx" "Art Autobiography.docx" "aofnaosinsoifnseoifnweofiwenfoiwnfoiwnwoeifew.rkt" "aofnaosinsoifnseoifnweofiwenfoiwnfoiwnwoeifew.bak" "anna_karenina_thesis_essay_1.docx" "Animania.docx" "Amnesia/" "America is commonly referred to as a giant melting pot of different people and cultures.docx" "ambia_videogamestory.docx" "ambia_routine.docx" "3rd nytimes article.docx" "3rd nytimes article HAHA LIAR U DIDNT EVEN START MY FIRST ONE.docx" "../" "./")
-
- ("c:/Users/ayman_000/Documents/GitHub/OGFireDogeMatrix/" (22157 42664 0 0) "README.md" "Matrix.java" "Matrix.class" ".gitignore" ".git/" "../" "./")
-
- ("c:/Users/ayman_000/Documents/GitHub/FinalProjectFall2015-BillyWongMatthewZhu/" (22163 62394 0 0) "WhatToDo.txt" "Trainers.txt" "test/" "README.md" "Pokemon GB.ttf" "Pokemon/" "Data Collection/" ".git/" "../" "./")
-
- ("c:/Users/ayman_000/Documents/GitHub/contests/usaco_jan/b2/" (22172 44852 0 0) "angry.java" "../" "./")
-
- ("c:/Users/" (22130 23262 0 0) "Public/" "desktop.ini" "Default.migrated/" "Default User/" "Default/" "ayman_000/" "amrin_000/" "All Users/" "Ahmed Family PC/" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

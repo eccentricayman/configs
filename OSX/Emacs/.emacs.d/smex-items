@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- list-packages
- neotree-enter-ace-window
+ set-background-color
+ load-theme
+ package-delete
  eval-buffer
- comment-region
- company-irony
- ansi-term
+ version
  browse-url
+ term
 )
 
 ;; ----- smex-data -----
@@ -17,9 +17,9 @@
  (checkdoc-eval-current-buffer . 1)
  (indent-rigidly . 1)
  (eldoc-mode . 1)
- (eval-buffer . 111)
+ (eval-buffer . 118)
  (ido-mode . 1)
- (list-packages . 15)
+ (list-packages . 17)
  (package-refresh-contents . 2)
  (customize-variable . 1)
  (toggle-frame-fullscreen . 1)
@@ -33,7 +33,7 @@
  (shell . 1)
  (eshell . 2)
  (org-mode . 2)
- (load-theme . 69)
+ (load-theme . 83)
  (byte-compile-file . 5)
  (profiler-start . 2)
  (profiler-report . 2)
@@ -57,18 +57,18 @@
  (windresize . 6)
  (text-mode . 2)
  (windresize-balance-windows . 1)
- (load-file . 5)
+ (load-file . 6)
  (customize-face . 1)
  (toggle-debug-on-error . 1)
  (eval-defun . 1)
- (set-background-color . 14)
+ (set-background-color . 23)
  (butterfly . 1)
  (emacs-init-time . 11)
  (benchmark . 2)
  (powerline-default-theme . 4)
  (menu-bar-showhide-tool-bar-menu-customize-disable . 1)
  (byte-recompile-file . 1)
- (package-install . 11)
+ (package-install . 13)
  (color-theme-approximate-on . 1)
  (color-theme-approximate-off . 2)
  (eval-expression . 1)
@@ -78,7 +78,7 @@
  (byte-recompile-directory . 2)
  (fireplace . 1)
  (conf-mode . 1)
- (comment-region . 4)
+ (comment-region . 5)
  (auto-revert-tail-mode . 1)
  (magit-push . 1)
  (list-colors-display . 1)
@@ -95,6 +95,15 @@
  (uncomment-region . 1)
  (company-manual-begin . 4)
  (package-list-packages . 1)
- (browse-url . 1)
+ (browse-url . 2)
  (neotree-enter-ace-window . 1)
+ (comment-box . 2)
+ (copy-to-buffer . 1)
+ (make-directory . 1)
+ (makefile-mode . 1)
+ (makefile-insert-target . 1)
+ (eval-current-buffer . 1)
+ (package-delete . 2)
+ (term . 1)
+ (version . 1)
 )
