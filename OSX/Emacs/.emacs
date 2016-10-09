@@ -37,7 +37,7 @@
      ("marmalade" . "http://marmalade-repo.org/packages/"))))
  '(package-selected-packages
    (quote
-    (doom-themes ample-theme spacemacs-theme multiple-cursors dracula-theme aurora-theme windresize ido-better-flex ido-vertical-mode smex recentf-ext rainbow-delimiters popup highlight-parentheses fsm atom-one-dark-theme)))
+    (web-mode hl-line+ nlinum-relative doom-themes ample-theme spacemacs-theme multiple-cursors dracula-theme aurora-theme windresize ido-better-flex ido-vertical-mode smex recentf-ext rainbow-delimiters popup highlight-parentheses fsm atom-one-dark-theme)))
  '(show-paren-mode t)
  '(tool-bar-mode nil)
  '(vc-annotate-background "#3b3b3b")
@@ -104,9 +104,9 @@
 ;; show paren mode
 (show-paren-mode 1)
 ;;disabled because emacsclient is weird with it
-;(global-nlinum-mode 1)
+(global-nlinum-mode 1)
 ;; enable lines mode
-(global-linum-mode 1)
+;(global-linum-mode 1)
 (setq backup-directory-alist `(("." . "~/.emacsbackups")))
 ;;;;;;;;;;;; misc ;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -386,6 +386,10 @@
   (add-to-list 'company-backends 'company-jedi))
 
 (add-hook 'python-mode-hook 'my/python-mode-hook)
+
+;autocomplete html
+(add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+
 
 ;processing
 (autoload 'processing-mode "processing-mode" "processing mode" t)
