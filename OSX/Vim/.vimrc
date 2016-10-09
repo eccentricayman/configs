@@ -35,6 +35,7 @@ Plugin 'Raimondi/delimitMate'
 Plugin 'mhinz/vim-startify'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'joshdick/onedark.vim'
+Plugin 'alvan/vim-closetag'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -91,6 +92,7 @@ if has('gui_running')
    colorscheme onedark
 endif
 autocmd! FileType c,cpp,java,php call CSyntaxAfter()
+let g:closetag_filenames = "*.html,*.xhtml,*.phtml"
 
 " GitGutter
 " .....................................
