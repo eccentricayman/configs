@@ -37,6 +37,7 @@ Plugin 'mhinz/vim-startify'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'joshdick/onedark.vim'
 Plugin 'alvan/vim-closetag'
+Plugin 'easymotion/vim-easymotion'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
