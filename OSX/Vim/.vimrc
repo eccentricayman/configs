@@ -17,9 +17,10 @@ Plugin 'plasticboy/vim-markdown'
 Plugin 'majutsushi/tagbar'
 Plugin 'bling/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'sjl/gundo.vim'
+Plugin 'rking/ag.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-fugitive'
-Plugin 'chriskempson/base16-vim'
 Plugin 'https://github.com/scrooloose/nerdtree'
 Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'airblade/vim-gitgutter'
@@ -52,20 +53,33 @@ set noeb vb t_vb=     "autostart and no bells, visual or beep
 au GUIEnter * set vb t_vb=
 set ignorecase        " ignore case while searching
 set number            " put numbers on side
-set ts=2							" set the tabs to two spaces
+set ts=4							" set the tabs to two spaces
 set expandtab
-set shiftwidth=2
-set tabstop=2
+set shiftwidth=4
+set tabstop=4
+set softtabstop=4
 set backspace=indent,eol,start
 set completeopt=longest,menu,preview
 set autoindent
-set scrolloff=5               " keep at least 5 lines above/below
+if has("gui_running")
+    set scrolloff=5               " keep at least 5 lines above/below in GUI
+endif
+set cursorline                " highlight current line
+hi clear CursorLine           " clear cursor line highlight
+augroup CLClear
+    autocmd! ColorScheme * hi clear CursorLine
+augroup END
+hi CursorLineNR cterm=bold
+augroup CLNRSet               " highlight line number
+    autocmd! ColorScheme * hi CursorLineNR cterm=bold
+augroup END
 set sidescrolloff=5           " keep at least 5 lines left/right
 set hidden                    " this will go along"
+set showcmd
 filetype plugin on
 filetype plugin indent on
-let mapleader = ","           " Remap leader to comma"
-let base16colorspace=256
+let mapleader = ","           " Remap leader to comma
+"let base16colorspace=256
 set guioptions-=m  "remove menu bar
 set guioptions-=T  "remove toolbar
 set guioptions-=r  "remove right-hand scroll bar
@@ -83,6 +97,7 @@ noremap <Left> <NOP>
 noremap <Right> <NOP>
 set wildmode=longest,list,full
 set wildmenu
+set lazyredraw
 let delimitMate_expand_cr = 1
 
 " Color Themes
@@ -112,10 +127,49 @@ nmap <silent> <c-k> :wincmd k<CR>
 nmap <silent> <c-j> :wincmd j<CR>
 nmap <silent> <c-h> :wincmd h<CR>
 nmap <silent> <c-l> :wincmd l<CR>
+" Toggle Gundo
+nnoremap <leader>u :GundoToggle<CR>
+" Shortcut for Silver Searcher
+nnoremap <leader>a :Ag
 " F5 to delete all trailing whitespaces
 nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
 map <C-Tab> :bnext<CR>
 map <C-S-Tab> :bprev<CR>
+nmap <F8> :TagbarToggle<CR>
+" toggle gundo
+nnoremap <leader>u :GundoToggle<CR>
+" move vertically by visual line
+nnoremap j gj
+nnoremap k gk
+
+" Custom Functions
+" .....................................
+function! Ccompilerun ()
+    ! gcc %
+    ! ./a.out
+endfunction
+
+nnoremap <leader>cc :call Ccompilerun()<CR>
+
+function! Pythonrun ()
+    ! python %
+endfunction
+
+nnoremap <leader>pp :call Pythonrun()<CR>
+
+" cannot get this working :(
+" function! Javacompilerun ()
+"     ! javac %:t
+"     ! java %:t:r
+" endfunction
+
+" nnoremap <leader>jj :call Javacompilerun()<CR>
+
+function! Scriptrun ()
+    ! sh %
+endfunction
+
+nnoremap <leader>ss :call Scriptrun()<CR>
 
 " FileTypes
 " .....................................
