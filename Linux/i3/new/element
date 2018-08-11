@@ -1,0 +1,16 @@
+#!/usr/bin/env sh
+
+monitor1=Virtual1
+
+
+#POLYBAR
+killall -q polybar
+while pgrep -x polybar >/dev/null; do sleep 1; done
+MONITOR=$monitor1 polybar -c ~/.config/polybar/polybar center &
+MONITOR=$monitor1 polybar -c ~/.config/polybar/polybar top &
+MONITOR=$monitor1 polybar -c ~/.config/polybar/polybar workspaces &
+
+#COMPTON
+killall -q compton
+while pgrep -x compton >/dev/null; do sleep 1; done
+compton --glx-no-stencil --glx-no-rebind-pixmap --glx-swap-method exchange --config ~/.config/compton.conf &

@@ -1,0 +1,25 @@
+#!/bin/bash
+
+ROFI_OPTIONS=(-theme $HOME/.config/rofi/rofi_bar -m 0 -width 1500)
+
+another=$(echo "runapp
+runscript
+findwindow" | awk '{print $(NF-1)}' | rofi "${ROFI_OPTIONS[@]}" -dmenu -i -p " Search: ")
+
+
+if [ "$another" == "runapp" ] ; then
+	rofi "${ROFI_OPTIONS[@]}" -modi 'drun' -show drun
+
+elif [ "$another" == "runscript" ] ; then
+	rofi "${ROFI_OPTIONS[@]}" -modi 'run' -show run
+	
+elif [ "$another" == "findwindow" ] ; then
+	rofi "${ROFI_OPTIONS[@]}" -modi 'window' -show window
+
+
+elif [ -z "$another" ] ; then
+	echo "variable empty"
+
+else
+    xdg-open https://www.google.com/search?q=$another
+fi

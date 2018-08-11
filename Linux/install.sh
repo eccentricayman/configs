@@ -7,9 +7,9 @@ touch ${HOME}/warning.txt
 WARNING=${HOME}/warning.txt
 
 #all the homedir stuff (bash, emacs)
-cp -v Bash/.bashrc ${HOME}
-cp -v Emacs/.emacs ${HOME}
-cp -avr Emacs/.emacs.d ${HOME}
+#cp -v Bash/.bashrc ${HOME}
+#cp -v Emacs/.emacs ${HOME}
+#cp -avr Emacs/.emacs.d ${HOME}
 
 #installing scripts
 if [ ! -d "${HOME}/Scripts" ]; then
@@ -35,26 +35,26 @@ else
 fi
 
 #installing sublimetext3
-if [ ! -d "${HOME}/.config/sublime-text-3" ]; then
-    echo "Install Sublime Text 3!"
-    echo "NEEDS SUBLIME TEXT INSTALLED" >> $WARNING
-    mkdir ${HOME}/.config/sublime-text-3/Packages/User
-    cp -v Sublime_Text_3/"Package Control.sublime-settings" ${HOME}/.config/sublime-text-3/Packages/User
-    cp -v Sublime_Text_3/Preferences.sublime-settings ${HOME}/.config/sublime-text-3/Packages/User
-else
-    cp -v Sublime_Text_3/"Package Control.sublime-settings" ${HOME}/.config/sublime-text-3/Packages/User
-    cp -v Sublime_Text_3/Preferences.sublime-settings ${HOME}/.config/sublime-text-3/Packages/User
-fi
+#if [ ! -d "${HOME}/.config/sublime-text-3" ]; then
+#    echo "Install Sublime Text 3!"
+#    echo "NEEDS SUBLIME TEXT INSTALLED" >> $WARNING
+#    mkdir ${HOME}/.config/sublime-text-3/Packages/User
+#    cp -v Sublime_Text_3/"Package Control.sublime-settings" ${HOME}/.config/sublime-text-3/Packages/User
+#    cp -v Sublime_Text_3/Preferences.sublime-settings ${HOME}/.config/sublime-text-3/Packages/User
+#else
+#    cp -v Sublime_Text_3/"Package Control.sublime-settings" ${HOME}/.config/sublime-text-3/Packages/User
+#    cp -v Sublime_Text_3/Preferences.sublime-settings ${HOME}/.config/sublime-text-3/Packages/User
+#fi
 
 #installing cava
-if [ ! -d "${HOME}/.config/cava" ]; then
-    echo "Install Cava!"
-    echo "NEEDS CAVA INSTALLED" >> $WARNING
-    mkdir ${HOME}/.config/cava
-    cp -v Cava/config ${HOME}/.config/cava
-else
-    cp -v Cava/config ${HOME}/.config/cava
-fi
+#if [ ! -d "${HOME}/.config/cava" ]; then
+#    echo "Install Cava!"
+#    echo "NEEDS CAVA INSTALLED" >> $WARNING
+#    mkdir ${HOME}/.config/cava
+#    cp -v Cava/config ${HOME}/.config/cava
+#else
+#    cp -v Cava/config ${HOME}/.config/cava
+#fi
 
 #installing tmux
 if [ ! -d "${HOME}/.tmux" ]; then
@@ -78,16 +78,16 @@ else
 fi
 
 #installing zsh
-if [ ! -d "${HOME}/.zprezto" ]; then
-    echo "Install Zprezto!"
-    echo "NEEDS ZPREZTO INSTALLED" >> $WARNING
-    echo "CANNOT TELL IF ZSH INSTALLED OR NOT" >> $WARNING
-    cp -v Zsh/.zshrc ${HOME}
-    cp -v Zsh/zpreztorc ${HOME}/.zprezto/runcoms/zpreztorc
-else
-    cp -v Zsh/.zshrc ${HOME}
-    cp -v Zsh/zpreztorc ${HOME}/.zprezto/runcoms/zpreztorc
-fi
+#if [ ! -d "${HOME}/.zprezto" ]; then
+#    echo "Install Zprezto!"
+#    echo "NEEDS ZPREZTO INSTALLED" >> $WARNING
+#    echo "CANNOT TELL IF ZSH INSTALLED OR NOT" >> $WARNING
+#    cp -v Zsh/.zshrc ${HOME}
+#    cp -v Zsh/zpreztorc ${HOME}/.zprezto/runcoms/zpreztorc
+#else
+#    cp -v Zsh/.zshrc ${HOME}
+#    cp -v Zsh/zpreztorc ${HOME}/.zprezto/runcoms/zpreztorc
+#fi
 
 #installing fonts
 if [ ! -d "${HOME}/.config/fontconfig" ]; then
